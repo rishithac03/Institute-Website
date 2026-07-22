@@ -1,3 +1,7 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+// import Courses from "./Courses";
+ import Enrollnow from "./Enrollnow";
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
@@ -14,8 +18,16 @@ import Register from './pages/Register'
 
 
 function App() {
-
   return (
+    <BrowserRouter>
+    
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/courses" element={<Courses />} /> */}
+        <Route path="/enroll" element={<Enrollnow />} />
+      </Routes>
+    </BrowserRouter>
+  );
     <>
       <Navbar />
       <Routes>
@@ -34,4 +46,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
