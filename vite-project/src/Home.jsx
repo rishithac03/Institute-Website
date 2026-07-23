@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Home.css";
+import "./Home.css"
 import video from "./assets/video.mp4";
 import CountUp from "react-countup";
 import Test from "./Test";
@@ -12,9 +12,7 @@ const Home = () => {
     
   return (
     <div>
-    <div style={{border:"1px solid black",height:"100px",width:"auto"}}>
-
-        </div>
+    
     <section className="home">
 
         

@@ -54,7 +54,7 @@ function Navbar() {
                     <NavLink to="/about">About</NavLink>
                     <NavLink to="/courses">Courses</NavLink>
                     <div className="dropdown" ref={dropdownRef} onMouseEnter={()=> setDropdown(true)} onMouseLeave={()=> setDropdown(false)}>
-                        <NavLink to="/collaborations" className="collab-link" onClick={() => setDropdown(!dropdown)}> Collaborations </NavLink>
+                        <NavLink to="/collaborations" className="collab-link"> Collaborations </NavLink>
                         {dropdown && (
                             <div className="dropdown-menu">
                                 <div className="dropdown-links">
