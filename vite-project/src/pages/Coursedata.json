@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "title": "MERN Stack",
+    "roadmap": [
+      { "step": "Registration", "duration": "1 Day" },
+      { "step": "HTML & CSS", "duration": "10 Days" },
+      { "step": "JavaScript", "duration": "20 Days" },
+      { "step": "Bootstrap & Tailwind", "duration": "5 Days" },
+      { "step": "React.js", "duration": "25 Days" },
+      { "step": "Node.js", "duration": "12 Days" },
+      { "step": "Express.js", "duration": "8 Days" },
+      { "step": "MongoDB", "duration": "10 Days" },
+      { "step": "Mini Projects", "duration": "10 Days" },
+      { "step": "Live Project", "duration": "15 Days" },
+      { "step": "Resume Building", "duration": "3 Days" },
+      { "step": "Mock Interviews", "duration": "5 Days" },
+      { "step": "Placement Assistance", "duration": "Ongoing" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "MERN Stack",
+    "roadmap": [
+      { "step": "Registration", "duration": "1 Day" },
+      { "step": "HTML & CSS", "duration": "10 Days" },
+      { "step": "JavaScript", "duration": "20 Days" },
+      { "step": "Bootstrap & Tailwind", "duration": "5 Days" },
+      { "step": "React.js", "duration": "25 Days" },
+      { "step": "Node.js", "duration": "12 Days" },
+      { "step": "Express.js", "duration": "8 Days" },
+      { "step": "MongoDB", "duration": "10 Days" },
+      { "step": "Mini Projects", "duration": "10 Days" },
+      { "step": "Live Project", "duration": "15 Days" },
+      { "step": "Resume Building", "duration": "3 Days" },
+      { "step": "Mock Interviews", "duration": "5 Days" },
+      { "step": "Placement Assistance", "duration": "Ongoing" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "MERN Stack",
+    "roadmap": [
+      { "step": "Registration", "duration": "1 Day" },
+      { "step": "HTML & CSS", "duration": "10 Days" },
+      { "step": "JavaScript", "duration": "20 Days" },
+      { "step": "Bootstrap & Tailwind", "duration": "5 Days" },
+      { "step": "React.js", "duration": "25 Days" },
+      { "step": "Node.js", "duration": "12 Days" },
+      { "step": "Express.js", "duration": "8 Days" },
+      { "step": "MongoDB", "duration": "10 Days" },
+      { "step": "Mini Projects", "duration": "10 Days" },
+      { "step": "Live Project", "duration": "15 Days" },
+      { "step": "Resume Building", "duration": "3 Days" },
+      { "step": "Mock Interviews", "duration": "5 Days" },
+      { "step": "Placement Assistance", "duration": "Ongoing" }
+    ]
+  },
+
+  {
+    "id": 4,
+    "title": "MERN Stack",
+    "roadmap": [
+      { "step": "Registration", "duration": "1 Day" },
+      { "step": "HTML & CSS", "duration": "10 Days" },
+      { "step": "JavaScript", "duration": "20 Days" },
+      { "step": "Bootstrap & Tailwind", "duration": "5 Days" },
+      { "step": "React.js", "duration": "25 Days" },
+      { "step": "Node.js", "duration": "12 Days" },
+      { "step": "Express.js", "duration": "8 Days" },
+      { "step": "MongoDB", "duration": "10 Days" },
+      { "step": "Mini Projects", "duration": "10 Days" },
+      { "step": "Live Project", "duration": "15 Days" },
+      { "step": "Resume Building", "duration": "3 Days" },
+      { "step": "Mock Interviews", "duration": "5 Days" },
+      { "step": "Placement Assistance", "duration": "Ongoing" }
+    ]
+  }
+]

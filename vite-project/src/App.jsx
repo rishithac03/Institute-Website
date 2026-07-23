@@ -10,10 +10,12 @@ import Collaborations from './pages/Collaborations'
 import Testimonials from './pages/Testimonials'
 import Contact from './pages/Contact'
 import Careers from './pages/Careers'
-import Jobs from './pages/Jobs'
+import JobsPrediction from './pages/JobsPrediction';
 import Resources from './pages/Resources'
 import Register from './pages/Register'
-
+import CourseDetails from './pages/CourseDetails';
+import Footer from './Footer';
+import WhatsApp from './pages/Whatsapp';
 
 function App() {
   return (
@@ -30,9 +32,14 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Register />} />
         <Route path="/careers" element={<Careers />} />
-        <Route path="/jobs" element={<Jobs />} />
+        <Route path="/jobs" element={<JobsPrediction/>} />
         <Route path="/resources" element={<Resources />} />
+        <Route path="/course/:id" element={<CourseDetails />} />
       </Routes>
+      <div style={{marginTop:"0px"}}>
+        <Footer/>
+        <WhatsApp/>
+      </div>
       </BrowserRouter>
     </>
   )

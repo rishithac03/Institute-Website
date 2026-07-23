@@ -42,7 +42,7 @@ function Navbar() {
     }, []);
 
     return (
-
+<div>
         <header className={scrolled ? "navbar scrolled" : "navbar"}>
             <div className="container">
                 <NavLink to="/" className="logo">
@@ -106,8 +106,14 @@ function Navbar() {
                     )}
                 </div>
             </div>
-        </header>
 
+        </header>
+       <div className="ticker">
+  <div className="ticker-content">
+   <h4>🚀 Admissions Open 2026    • 100% Placement Assistance    • Industry Experts      • Live Projects     • Register Now 🚀</h4>
+  </div>
+</div>
+</div>
     );
 
 }

@@ -1,255 +1,440 @@
-/* ==========================================
-   GOOGLE FONT
-========================================== */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-
-/* ==========================================
-   GLOBAL STYLES
-========================================== */
 
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
+    font-family:"Poppins",sans-serif;
 }
 
+
 body{
-    background:#ffffff;
-    color:#222;
     overflow-x:hidden;
 }
 
-a{
-    text-decoration:none;
-    color:inherit;
-}
 
-button{
-    cursor:pointer;
-    border:none;
-    transition:0.3s ease;
-}
-
-
-/* ==========================================
-   HOME SECTION
-========================================== */
+/* HERO SECTION */
 
 .home{
+
     position:relative;
+
     width:100%;
+
     height:100vh;
+
     overflow:hidden;
+
 }
 
 
-/* ==========================================
-   BACKGROUND VIDEO
-========================================== */
+
+/* VIDEO BACKGROUND */
 
 .background-video{
+
     position:absolute;
+
     top:0;
     left:0;
+
     width:100%;
+
     height:100%;
+
+
     object-fit:cover;
+
+
+    z-index:-2;
+
+
+    filter:blur(3px);
+
+    transform:scale(1.05);
+
 }
 
 
-/* ==========================================
-   DARK OVERLAY
-========================================== */
 
-.overlay{
+/* DARK OVERLAY */
+
+.home-overlay{
+
     position:absolute;
+
+
     top:0;
     left:0;
+
+
     width:100%;
     height:100%;
-    background:rgba(0,0,0,0.55);
-    z-index:1;
+
+
+    background:
+    rgba(0,0,0,0.55);
+
+
+    z-index:-1;
+
 }
 
 
-/* ==========================================
-   HERO CONTENT
-========================================== */
 
-.content{
+
+
+/* HERO CONTENT */
+
+.hero-content{
+
+
     position:relative;
+
     z-index:2;
 
+
     width:100%;
+
     height:100%;
 
+
     display:flex;
+
+
     flex-direction:column;
+
+
     justify-content:center;
+
+
     align-items:center;
 
+
     text-align:center;
-    color:#fff;
+
 
     padding:20px;
+
+
+    color:white;
+
+
+    animation:fadeUp 1s ease;
+
 }
 
-.content h1{
-    font-size:60px;
-    font-weight:700;
-    max-width:900px;
-    margin-bottom:20px;
+
+
+
+
+.hero-content h1{
+
+
+    font-size:65px;
+
+
+    font-weight:800;
+
+
+    max-width:950px;
+
+
+    line-height:1.2;
+
+
+    margin-bottom:25px;
+
+
+    color:white;
+
+
+    text-shadow:
+
+    0 5px 20px rgba(0,0,0,0.8);
+
 }
 
-.content p{
+
+
+
+.hero-content p{
+
+
+    max-width:750px;
+
+
     font-size:20px;
-    max-width:700px;
+
+
     line-height:1.8;
-    margin-bottom:35px;
+
+
+    color:#f5f5f5;
+
+
+    margin-bottom:40px;
+
+
+    text-shadow:
+
+    0 3px 10px rgba(0,0,0,0.8);
+
 }
 
 
-/* ==========================================
-   BUTTONS
-========================================== */
+
+
+
+/* BUTTON CONTAINER */
+
 
 .buttons{
+
     display:flex;
-    gap:20px;
+
+    gap:25px;
+
 }
+
+
+
+
 
 .buttons button{
-    padding:15px 35px;
-    border-radius:8px;
+
+
+    padding:15px 40px;
+
+
     font-size:17px;
+
+
     font-weight:600;
+
+
+    border-radius:30px;
+
+
+    cursor:pointer;
+
+
+    border:none;
+
+
+    transition:0.3s ease;
+
 }
+
+
+
+
+
+/* EXPLORE BUTTON */
+
 
 .buttons button:first-child{
+
+
     background:#ff7b00;
-    color:#fff;
+
+
+    color:white;
+
+
 }
+
+
 
 .buttons button:first-child:hover{
+
+
     background:#ff9500;
+
+
+    transform:translateY(-5px);
+
 }
+
+
+
+
+/* ENROLL BUTTON */
+
 
 .enroll-btn{
+
+
     background:transparent;
-    color:#fff;
-    border:2px solid #ff7b00;
+
+
+    color:white;
+
+
+    border:2px solid #ff7b00 !important;
+
+
 }
+
+
+
 
 .enroll-btn:hover{
+
+
     background:#ff7b00;
+
+
+    transform:translateY(-5px);
+
 }
 
 
-/* ==========================================
-   STATISTICS
-========================================== */
 
-.stats{
+
+
+/* ANIMATION */
+
+
+@keyframes fadeUp{
+
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(50px);
+
+    }
+
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+
+}
+
+
+
+
+
+/* TEST SECTION */
+
+
+.test-section{
+
+
     width:90%;
+
     max-width:1200px;
+
 
     margin:70px auto;
 
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-
-    gap:25px;
-}
-
-.stat-card{
-
-    background:#fff;
-
-    padding:35px 20px;
-
-    text-align:center;
-
-    border-radius:15px;
-
-    box-shadow:0 10px 25px rgba(0,0,0,.1);
-
-    transition:0.3s;
-}
-
-.stat-card:hover{
-    transform:translateY(-10px);
-}
-
-.stat-card h2{
-    font-size:45px;
-    color:#ff7b00;
-    margin-bottom:10px;
-}
-
-.stat-card p{
-    font-size:18px;
-    color:#555;
-    font-weight:500;
 }
 
 
-/* ==========================================
-   RESPONSIVE
-========================================== */
+
+
+
+/* TABLET */
+
 
 @media(max-width:992px){
 
-.content h1{
+
+.hero-content h1{
+
     font-size:48px;
-}
-
-.stats{
-    grid-template-columns:repeat(2,1fr);
-}
 
 }
+
+
+.hero-content p{
+
+    font-size:18px;
+
+}
+
+
+}
+
+
+
+
+/* MOBILE */
+
 
 @media(max-width:768px){
 
-.content h1{
+
+.hero-content h1{
+
     font-size:38px;
+
 }
 
-.content p{
-    font-size:17px;
+
+
+.hero-content p{
+
+    font-size:16px;
+
 }
+
+
 
 .buttons{
+
     flex-direction:column;
-    width:100%;
-    max-width:300px;
+
+    width:260px;
+
 }
+
+
 
 .buttons button{
+
     width:100%;
-}
 
 }
 
-@media(max-width:600px){
-
-.stats{
-    grid-template-columns:1fr;
-}
 
 }
+
+
+
+
 
 @media(max-width:480px){
 
-.content h1{
+
+.hero-content h1{
+
     font-size:30px;
-}
-
-.content p{
-    font-size:15px;
-}
 
 }
+
+
+
+.hero-content p{
+
+    font-size:14px;
+
+}
+
+
+}
+
+
+
+
+
+

@@ -76,7 +76,7 @@ a {
 
 .desktop-nav a:hover {
     transform: scale(1.08);
-    color:orangered;
+    color:#ff7700;
 }
 
 .collab-link {
@@ -209,4 +209,29 @@ a {
     inset: 0;
     background: rgba(0, 0, 0, .35);
     z-index: 9998;
+}
+.ticker {
+    width: 100%;
+    overflow: hidden;
+    background: #111;
+    color: white;
+    padding: 12px 0;
+    white-space: nowrap;
+}
+
+.ticker-content {
+    display: inline-block;
+    color:#d6c8bb;
+    padding-left: 100%;
+    animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
 }

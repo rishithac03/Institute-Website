@@ -1,0 +1,266 @@
+.details{
+
+    width:90%;
+    max-width:1100px;
+
+    margin:60px auto;
+
+}
+
+
+
+.details h1{
+
+    text-align:center;
+
+    margin-bottom:70px;
+
+    color:#ff7a00;
+
+}
+
+
+
+/* Timeline main */
+
+.timeline{
+
+    position:relative;
+
+}
+
+
+
+/* Center snake curve */
+
+.timeline::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:50%;
+
+    top:0;
+
+    transform:translateX(-50%);
+
+
+    width:80px;
+
+    height:100%;
+
+
+    background:
+
+    url("data:image/svg+xml,%3Csvg width='80' height='500' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40 0 C80 60,0 120,40 180 S80 300,40 360 S0 440,40 500' stroke='%23ff7a00' stroke-width='4' fill='none'/%3E%3C/svg%3E")
+
+    repeat-y;
+
+
+    background-size:80px 500px;
+
+}
+
+
+
+/* Each row */
+
+.timeline-item{
+
+    width:50%;
+    display:flex;
+    align-items:center;
+    margin-bottom:60px;
+    position:relative;
+
+}
+
+
+
+/* Left side cards */
+
+.timeline-item:nth-child(odd){
+
+    left:0;
+
+    justify-content:flex-end;
+
+    padding-right:60px;
+
+}
+
+
+
+/* Right side cards */
+
+.timeline-item:nth-child(even){
+
+    left:50%;
+
+    padding-left:60px;
+
+}
+
+
+
+/* Circle */
+
+.circle{
+
+    position:absolute;
+
+    left:100%;
+
+    transform:translateX(-50%);
+
+
+
+    width:40px;
+
+    height:40px;
+
+
+    background:#ff7a00;
+
+    color:white;
+
+
+    border-radius:50%;
+
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+
+    font-weight:bold;
+
+
+    z-index:2;
+
+}
+
+
+
+/* Right side circle */
+
+.timeline-item:nth-child(even) .circle{
+
+    left:0;
+
+}
+
+
+
+/* Cards */
+
+.content{
+
+
+    background:white;
+
+
+    padding:25px;
+
+
+    width:350px;
+
+
+    border-radius:15px;
+
+
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+
+
+    transition:.3s;
+
+}
+
+
+
+.content:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+.content h2{
+
+    color:#222;
+
+    margin-bottom:10px;
+
+}
+
+
+
+.content p{
+
+    color:#777;
+
+}
+
+
+
+/* Mobile Responsive */
+
+@media(max-width:768px){
+
+
+.timeline::before{
+
+    left:20px;
+
+}
+
+
+
+.timeline-item,
+.timeline-item:nth-child(even),
+.timeline-item:nth-child(odd){
+
+
+    width:100%;
+
+
+    left:0;
+
+
+    padding-left:60px;
+
+    padding-right:0;
+
+
+    justify-content:flex-start;
+
+
+}
+
+
+
+.circle,
+.timeline-item:nth-child(even) .circle{
+
+
+    left:20px;
+
+}
+
+
+
+.content{
+
+
+    width:100%;
+
+
+}
+
+
+
+}
