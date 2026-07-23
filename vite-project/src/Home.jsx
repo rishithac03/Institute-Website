@@ -28,7 +28,7 @@ const Home = () => {
         <source src={video} type="video/mp4" />
       </video>
 
-      <div className="overlay"></div>
+      <div className="home-overlay"></div>
 
       <div className="content">
         <h1>Transform Your Future With Quality Education</h1>

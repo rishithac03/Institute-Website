@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { NavLink } from "react-router-dom";
-import { ChevronDown, Menu, X, User, UserPlus, ClipboardCheck, } from "lucide-react";
+import { Menu, X, } from "lucide-react";
 import { useLocation } from "react-router-dom";
 
 import "./Navbar.css";
@@ -50,10 +50,10 @@ function Navbar() {
                     <div> <h2>Offera</h2></div>
                 </NavLink>
                 <nav className="desktop-nav">
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/" end>Home</NavLink>
                     <NavLink to="/about">About</NavLink>
                     <NavLink to="/courses">Courses</NavLink>
-                    <div className="dropdown" ref={dropdownRef} onMouseEnter={()=> setDropdown(true)}>
+                    <div className="dropdown" ref={dropdownRef} onMouseEnter={()=> setDropdown(true)} onMouseLeave={()=> setDropdown(false)}>
                         <NavLink to="/collaborations" className="collab-link" onClick={() => setDropdown(!dropdown)}> Collaborations </NavLink>
                         {dropdown && (
                             <div className="dropdown-menu">
