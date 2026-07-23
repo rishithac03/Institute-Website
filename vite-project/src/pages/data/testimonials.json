@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Amit Kumar",
+    "role": "Full Stack Developer",
+    "review": "This institute gave me the skills and confidence to build my career.",
+    "title": "Best Institute",
+    "rating": 5,
+    "image": "/assets/amit.jpg"
+  },
+  {
+    "name": "Sneha Reddy",
+    "role": "Software Engineer",
+    "review": "I got placed at Infosys as a Software Engineer. Thank you for the amazing training and support!",
+    "title": "Got Placed at Infosys",
+    "rating": 5,
+    "image": "/assets/sneha.jpg"
+  },
+  {
+    "name": "Karan Malhotra",
+    "role": "Frontend Developer",
+    "review": "Hands-on projects and mentorship helped me a lot in interviews. Highly recommended!",
+    "title": "Great Learning",
+    "rating": 5,
+    "image": "/assets/karan.jpg"
+  }
+]
