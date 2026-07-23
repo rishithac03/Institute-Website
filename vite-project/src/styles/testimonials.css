@@ -1,0 +1,241 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.testimonials-page, .testimonials-page *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+.testimonials-page{
+    background:#fff;
+    padding:60px 8%;
+}
+
+.testimonials-container{
+    max-width:1200px;
+    margin:auto;
+    text-align:center;
+}
+
+/* ---------- Heading ---------- */
+
+.testimonials-page .section-tag{
+    color:#ff6b00;
+    font-size:15px;
+    font-weight:600;
+    letter-spacing:4px;
+    display:block;
+    margin-bottom:12px;
+}
+
+.testimonials-page .section-title{
+    font-size:48px;
+    font-weight:700;
+    color:#222;
+    margin-bottom:18px;
+}
+
+.testimonials-page .section-title::after{
+    content:"";
+    width:70px;
+    height:4px;
+    background:#ff6b00;
+    display:block;
+    margin:18px auto 0;
+    border-radius:5px;
+}
+
+.testimonials-page .section-desc{
+    max-width:650px;
+    margin:auto;
+    color:#666;
+    line-height:1.8;
+    font-size:17px;
+}
+
+/* ---------- Wrapper ---------- */
+
+.testimonials-page .testimonial-wrapper{
+    margin-top:60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:25px;
+}
+
+/* ---------- Card ---------- */
+
+.testimonials-page .testimonial-card{
+    width:430px;
+    background:#fff;
+    border-radius:22px;
+    padding:70px 35px 35px;
+    position:relative;
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.testimonial-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 18px 45px rgba(0,0,0,.12);
+}
+
+/* ---------- Quote ---------- */
+
+.testimonials-page .quote-icon{
+    position:absolute;
+    top:-28px;
+    left:50%;
+    transform:translateX(-50%);
+    background:#ff6b00;
+    color:#fff;
+    width:58px;
+    height:58px;
+    padding:15px;
+    border-radius:50%;
+    box-shadow:0 8px 20px rgba(255,107,0,.25);
+}
+
+/* ---------- Stars ---------- */
+
+.stars{
+    display:flex;
+    justify-content:center;
+    gap:6px;
+    color:#ff6b00;
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+/* ---------- Content ---------- */
+
+.testimonial-card h3{
+    font-size:31px;
+    color:#222;
+    margin-bottom:18px;
+}
+
+.testimonials-page .review{
+    color:#555;
+    line-height:1.9;
+    font-size:16px;
+    margin-bottom:35px;
+}
+
+/* ---------- Student ---------- */
+
+.testimonials-page .student-info{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:18px;
+}
+
+.student-info img{
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #f2f2f2;
+}
+
+.student-info h4{
+    font-size:22px;
+    color:#222;
+    margin-bottom:4px;
+}
+
+.student-info span{
+    color:#ff6b00;
+    font-size:15px;
+    font-weight:500;
+}
+
+/* ---------- Buttons ---------- */
+
+.testimonials-page .nav-btn{
+    width:55px;
+    height:55px;
+    border:none;
+    border-radius:50%;
+    background:#ff6b00;
+    color:#fff;
+    cursor:pointer;
+    font-size:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:.3s;
+    box-shadow:0 8px 18px rgba(255,107,0,.22);
+}
+
+.nav-btn:hover{
+    background:#ff6b00;
+    transform:scale(1.08);
+}
+
+.nav-btn:active{
+    transform:scale(.95);
+}
+
+/* ---------- Responsive ---------- */
+
+@media(max-width:900px){
+
+.testimonials-page .testimonial-wrapper{
+    flex-direction:column;
+}
+
+.testimonials-page .nav-btn{
+    display:none;
+}
+
+.testimonials-page .testimonial-card{
+    width:100%;
+    max-width:430px;
+}
+
+.testimonials-page .section-title{
+    font-size:38px;
+}
+
+}
+
+@media(max-width:600px){
+
+.testimonials-page{
+    padding:70px 20px;
+}
+
+.testimonials-page .section-title{
+    font-size:30px;
+}
+
+.testimonials-page .section-desc{
+    font-size:15px;
+}
+
+.testimonials-page .testimonial-card{
+    padding:65px 25px 30px;
+}
+
+.testimonials-page .testimonial-card h3{
+    font-size:25px;
+}
+
+.testimonials-page .review{
+    font-size:15px;
+}
+
+.testimonials-page .student-info{
+    flex-direction:column;
+    text-align:center;
+}
+
+.student-info h4{
+    font-size:20px;
+}
+
+}
