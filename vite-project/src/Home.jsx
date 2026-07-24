@@ -5,7 +5,9 @@ import video from "./assets/video.mp4";
 import Test from "./Test";
 import Colab from "./pages/Colab";
 import Testimonials from "./pages/Testimonials";
+import Faq from "./pages/Faq";
 import Mode from './Mode';
+import Trainer from "./pages/Trainers";
 
 const Home = () => {
   const [showDemoCard, setShowDemoCard] = useState(true);
@@ -83,9 +85,11 @@ const Home = () => {
       <section>
         <Test />
       </section>
-<Mode/>
+      <Mode />
       <Colab />
+      <Trainer />
       <Testimonials />
+      <Faq />
     </div>
   );
 };

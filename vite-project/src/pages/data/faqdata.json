@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "category": "Enrollment",
+    "question": "How can I enroll in a course?",
+    "answer": "You can enroll by filling out the online registration form, visiting our institute, or contacting our admission team for guidance."
+  },
+  {
+    "id": 2,
+    "category": "Enrollment",
+    "question": "What documents are required for admission?",
+    "answer": "You need a valid ID proof, recent passport-size photographs, and copies of your educational certificates."
+  },
+  {
+    "id": 3,
+    "category": "Enrollment",
+    "question": "Is there an admission fee?",
+    "answer": "Admission fees may vary depending on the course. Please contact our admission office for the latest details."
+  },
+  {
+    "id": 4,
+    "category": "Enrollment",
+    "question": "Can I join a course after the batch has started?",
+    "answer": "Yes, depending on seat availability and the progress of the batch. Our counselors will guide you accordingly."
+  },
+
+  {
+    "id": 5,
+    "category": "Courses",
+    "question": "Which software courses do you offer?",
+    "answer": "We offer Full Stack Development, Python, Java, Data Science, Machine Learning, AI, Cloud Computing, DevOps, Testing, UI/UX, React, Angular, Node.js, and many more."
+  },
+  {
+    "id": 6,
+    "category": "Courses",
+    "question": "Are the courses suitable for beginners?",
+    "answer": "Yes. We offer beginner, intermediate, and advanced-level programs designed for students and working professionals."
+  },
+  {
+    "id": 7,
+    "category": "Courses",
+    "question": "Do you provide practical training?",
+    "answer": "Yes. Every course includes hands-on labs, live projects, assignments, and real-world case studies."
+  },
+  {
+    "id": 8,
+    "category": "Courses",
+    "question": "Can I switch to another course after joining?",
+    "answer": "Course changes may be allowed based on institute policies and course availability."
+  },
+
+  {
+    "id": 9,
+    "category": "Placements",
+    "question": "Do you provide placement assistance?",
+    "answer": "Yes. We provide placement assistance including resume building, mock interviews, aptitude training, and interview scheduling."
+  },
+  {
+    "id": 10,
+    "category": "Placements",
+    "question": "Are placements guaranteed?",
+    "answer": "We provide dedicated placement support, but final selection depends on the student's performance, skills, and interview results."
+  },
+  {
+    "id": 11,
+    "category": "Placements",
+    "question": "Which companies recruit students?",
+    "answer": "Students have been placed in startups, MNCs, and reputed IT companies across various domains."
+  },
+  {
+    "id": 12,
+    "category": "Placements",
+    "question": "Do you provide internship opportunities?",
+    "answer": "Yes. Internship opportunities are available for selected courses to help students gain industry experience."
+  },
+
+  {
+    "id": 13,
+    "category": "Fees",
+    "question": "Can I pay the course fee in installments?",
+    "answer": "Yes. Flexible installment options are available for most courses."
+  },
+  {
+    "id": 14,
+    "category": "Fees",
+    "question": "Which payment methods are accepted?",
+    "answer": "We accept UPI, debit cards, credit cards, net banking, and cash payments."
+  },
+  {
+    "id": 15,
+    "category": "Fees",
+    "question": "Do you offer any discounts?",
+    "answer": "Special discounts may be available during promotional periods or for group enrollments."
+  },
+  {
+    "id": 16,
+    "category": "Fees",
+    "question": "Can I get a fee receipt after payment?",
+    "answer": "Yes. A receipt will be provided immediately after every successful payment."
+  },
+  {
+    "id": 20,
+    "category": "Training",
+    "question": "Will class recordings be provided?",
+    "answer": "Yes. Recordings are available for selected online batches."
+  },
+  {
+    "id": 21,
+    "category": "Training",
+    "question": "What is the average batch size?",
+    "answer": "Our batches are kept small to ensure personalized attention and better interaction with trainers."
+  },
+  {
+    "id": 22,
+    "category": "Training",
+    "question": "Do you provide study materials?",
+    "answer": "Yes. Students receive digital notes, coding exercises, project files, and practice assignments."
+  },
+
+  {
+    "id": 23,
+    "category": "Projects",
+    "question": "Will I work on live projects?",
+    "answer": "Yes. Students work on real-time projects to gain practical industry experience."
+  },
+  {
+    "id": 24,
+    "category": "Projects",
+    "question": "How many projects are included?",
+    "answer": "The number of projects depends on the course, but every program includes practical project work."
+  },
+  {
+    "id": 25,
+    "category": "Projects",
+    "question": "Will I build a portfolio?",
+    "answer": "Yes. Students create a portfolio showcasing their projects, which can be shared during interviews."
+  }
+]
