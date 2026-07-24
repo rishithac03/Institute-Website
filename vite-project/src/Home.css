@@ -324,25 +324,6 @@ body{
 
 
 
-/* TEST SECTION */
-
-
-.test-section{
-
-
-    width:90%;
-
-    max-width:1200px;
-
-
-    margin:70px auto;
-
-}
-
-
-
-
-
 /* TABLET */
 
 
@@ -438,3 +419,163 @@ body{
 
 
 
+/*=====================================
+    WHY CHOOSE US
+======================================*/
+
+.about-page .choose{
+    background:#ffffff;
+}
+
+.about-page .choose .container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.about-page .choose-grid{
+    width:100%;
+    margin-top:45px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:24px;
+}
+
+.about-page .choose-card{
+    background:#fff8f2;
+    border:1px solid #ececec;
+    border-radius:18px;
+    padding:28px 24px;
+    text-align:center;
+    box-shadow:0 8px 22px rgba(0,0,0,.06);
+    transition:.3s;
+}
+
+.about-page .choose-card:hover{
+    border-color:#ff7700;
+    box-shadow:0 12px 28px rgba(0,0,0,.10);
+}
+
+.about-page .choose-card h3{
+    color:#222;
+    font-size:22px;
+    font-weight:600;
+    margin-bottom:12px;
+}
+
+.about-page .choose-card p{
+    color:#666;
+    font-size:15px;
+    line-height:1.8;
+}
+/* ===========================
+   Free Demo Popup Card
+=========================== */
+
+.demo-popup {
+  position: fixed;
+  top: 60px;
+  right: 25px;
+  width: 360px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+  overflow: hidden;
+  animation: popupSlide 0.5s ease;
+}
+
+.demo-content {
+  padding: 30px 25px;
+  text-align: center;
+}
+
+.demo-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #ff9800, #ff5722);
+  color: #fff;
+  padding: 6px 18px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.demo-content h2 {
+  color: #a1750d;
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.demo-content p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+.demo-btn {
+  background: linear-gradient(135deg, #0d47a1, #1976d2);
+  color: #fff;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.demo-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(25, 118, 210, 0.4);
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  color: #777;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.close-btn:hover {
+  color: #ff3b30;
+  transform: rotate(90deg);
+}
+
+@keyframes popupSlide {
+  from {
+    opacity: 0;
+    transform: translateX(350px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .demo-popup {
+    width: 90%;
+    right: 5%;
+    top: 20px;
+  }
+
+  .demo-content {
+    padding: 25px 20px;
+  }
+
+  .demo-content h2 {
+    font-size: 22px;
+  }
+
+  .demo-btn {
+    width: 100%;
+  }
+}

@@ -60,6 +60,11 @@ const Courses = () => {
             >
               View Details
             </button>
+            <button
+              onClick={() => navigate('/demopage')}
+            >
+              Demo Class
+            </button>
 
           </div>
 

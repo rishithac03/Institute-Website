@@ -16,7 +16,7 @@ import Register from './pages/Register'
 import CourseDetails from './pages/CourseDetails';
 import Footer from './Footer';
 import WhatsApp from './pages/Whatsapp';
-
+import DemoPage from './pages/Demo';
 function App() {
   return (
     <>
@@ -35,6 +35,8 @@ function App() {
         <Route path="/jobs" element={<JobsPrediction/>} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/course/:id" element={<CourseDetails />} />
+        <Route path="/demopage" element={<DemoPage/>} />
+
       </Routes>
       <div style={{marginTop:"0px"}}>
         <Footer/>
