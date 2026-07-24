@@ -28,7 +28,7 @@ const Testimonials = () => {
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-  const cardsPerPage = isMobile?1:3;
+  const cardsPerPage = isMobile ? 1 : 3;
   const totalPages = Math.ceil(testimonialsData.length / cardsPerPage);
   const currentTestimonials = testimonialsData.slice(
     index * cardsPerPage,

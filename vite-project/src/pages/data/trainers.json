@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "name": "Rahul Sharma",
+    "designation": "Senior Full Stack Trainer",
+    "experience": "10+ Years",
+    "courses": ["MERN Stack", "React", "Node.js"],
+    "skills": ["React", "Node.js", "MongoDB", "Express", "AWS"],
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/036/463/112/small_2x/ai-generated-confident-indian-businessman-portrait-png.png",
+    "bio": "Experienced Full Stack Developer and trainer with expertise in building scalable web applications and mentoring aspiring developers.",
+    "certifications": [
+      "AWS Certified Developer",
+      "MongoDB Associate"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Praneeth Reddy",
+    "designation": "Python & Data Science Trainer",
+    "experience": "8+ Years",
+    "courses": ["Python", "Data Science", "Machine Learning"],
+    "skills": ["Python", "Pandas", "NumPy", "Scikit-Learn", "Power BI"],
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/036/459/932/small_2x/ai-generated-confident-young-indian-businessman-portrait-png.png",
+    "bio": "Specializes in Data Science and Machine Learning with extensive experience in corporate training and real-world analytics projects.",
+    "certifications": [
+      "Microsoft Data Analyst",
+      "Google Data Analytics"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Anil Kumar",
+    "designation": "Java Full Stack Trainer",
+    "experience": "9+ Years",
+    "courses": ["Java", "Spring Boot", "Hibernate"],
+    "skills": ["Java", "Spring Boot", "Hibernate", "MySQL", "REST APIs"],
+    "image": "https://static.vecteezy.com/system/resources/previews/036/459/908/non_2x/ai-generated-confident-indian-businessman-portrait-png.png",
+    "bio": "Industry professional with strong expertise in enterprise Java applications and backend development.",
+    "certifications": [
+      "Oracle Certified Java Professional"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sneha Patel",
+    "designation": "UI/UX & Frontend Trainer",
+    "experience": "7+ Years",
+    "courses": ["HTML", "CSS", "JavaScript", "UI/UX"],
+    "skills": ["HTML", "CSS", "JavaScript", "Figma", "Adobe XD"],
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/059/322/555/small_2x/businesswoman-with-a-laptop-standing-at-copy-space-on-a-transparent-background-png.png",
+    "bio": "Creative frontend developer passionate about designing intuitive user interfaces and modern web experiences.",
+    "certifications": [
+      "Google UX Design",
+      "Adobe Certified Professional"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Kiran Rao",
+    "designation": "Cloud & DevOps Trainer",
+    "experience": "11+ Years",
+    "courses": ["AWS", "Azure", "Docker", "Kubernetes"],
+    "skills": ["AWS", "Docker", "Kubernetes", "Jenkins", "Linux"],
+    "image": "https://th.bing.com/th/id/R.aecce39602b0e30f5cffa8a049f91e3c?rik=7d8b6DVl1Y74CA&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fa%2fe%2fc%2fc%2f1364125264782739178passport.jpg&ehk=fXajciNC5FhII0X5s%2frc89fIo67eOYWAa5k78uYUEew%3d&risl=&pid=ImgRaw&r=0",
+    "bio": "Cloud architect with extensive experience in DevOps automation, cloud infrastructure, and CI/CD implementation.",
+    "certifications": [
+      "AWS Solutions Architect",
+      "Azure Administrator"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Megha Nair",
+    "designation": "Software Testing Trainer",
+    "experience": "8+ Years",
+    "courses": ["Manual Testing", "Selenium", "API Testing"],
+    "skills": ["Selenium", "Postman", "JUnit", "TestNG", "JMeter"],
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/059/322/509/small_2x/woman-in-formal-attire-with-laptop-and-copy-space-clipart-png.png",
+    "bio": "QA professional with expertise in automation testing and preparing students for software testing careers.",
+    "certifications": [
+      "ISTQB Certified Tester"
+    ]
+  }
+]
