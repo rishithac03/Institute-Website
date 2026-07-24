@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { NavLink } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import { Menu, X, } from "lucide-react";
 import { useLocation } from "react-router-dom";
 
@@ -58,8 +59,8 @@ function Navbar() {
                         {dropdown && (
                             <div className="dropdown-menu">
                                 <div className="dropdown-links">
-                                    <NavLink to="/collaborations#colleges"> Colleges </NavLink>
-                                    <NavLink to="/collaborations#companies"> Partner Companies </NavLink>
+                                    <HashLink smooth to="/collaborations#colleges"> Colleges </HashLink>
+                                    <HashLink smooth to="/collaborations#companies"> Partner Companies </HashLink>
                                 </div>
                             </div>
                         )}

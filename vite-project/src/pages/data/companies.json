@@ -3,120 +3,60 @@
     "id": 1,
     "name": "Infosys",
     "role": "Hiring Partner",
-    "logo": "/assets/collaborations/companies/infosys.png"
+    "logo": "https://static.vecteezy.com/system/resources/previews/024/806/527/large_2x/infosys-logo-transparent-free-png.png"
   },
   {
     "id": 2,
     "name": "TCS",
     "role": "Technology Partner",
-    "logo": "/assets/collaborations/companies/tcs.png"
+    "logo": "https://backend.quadient.com/files/default/2025-09/tcs_newlogo_final_cmyk_black.png"
   },
   {
     "id": 3,
     "name": "Wipro",
     "role": "Hiring Partner",
-    "logo": "/assets/collaborations/companies/wipro.png"
+    "logo": "https://logos-world.net/wp-content/uploads/2023/01/Wipro-Logo.png"
   },
   {
     "id": 4,
     "name": "Accenture",
     "role": "Industry Partner",
-    "logo": "/assets/collaborations/companies/accenture.png"
+    "logo": "https://tse1.mm.bing.net/th/id/OIP.f-T1CPg2kw4pc_cj268OvwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
   },
   {
     "id": 5,
     "name": "Capgemini",
     "role": "Technology Partner",
-    "logo": "/assets/collaborations/companies/capgemini.png"
+    "logo": "https://download.logo.wine/logo/Capgemini/Capgemini-Logo.wine.png"
   },
   {
     "id": 6,
     "name": "Cognizant",
     "role": "Hiring Partner",
-    "logo": "/assets/collaborations/companies/cognizant.png"
+    "logo": "https://latestlogo.com/wp-content/uploads/2024/02/cognizant.png"
   },
   {
     "id": 7,
     "name": "HCL Technologies",
     "role": "Training Partner",
-    "logo": "/assets/collaborations/companies/hcl.png"
+    "logo": "https://static.vecteezy.com/system/resources/previews/075/561/490/non_2x/hcl-tech-logo-transparent-background-free-png.png"
   },
   {
     "id": 8,
     "name": "Tech Mahindra",
     "role": "Placement Partner",
-    "logo": "/assets/collaborations/companies/techmahindra.png"
+    "logo": "https://companieslogo.com/img/orig/TECHM.NS_BIG-281ab5b9.png?t=1721262930"
   },
   {
     "id": 9,
     "name": "IBM",
     "role": "Technology Partner",
-    "logo": "/assets/collaborations/companies/ibm.png"
+    "logo": "https://1000logos.net/wp-content/uploads/2017/02/IBM-Logo-1967.jpg"
   },
   {
     "id": 10,
     "name": "Microsoft",
     "role": "Cloud Partner",
-    "logo": "/assets/collaborations/companies/microsoft.png"
-  },
-  {
-    "id": 11,
-    "name": "Google",
-    "role": "Innovation Partner",
-    "logo": "/assets/collaborations/companies/google.png"
-  },
-  {
-    "id": 12,
-    "name": "Amazon Web Services",
-    "role": "Cloud Training Partner",
-    "logo": "/assets/collaborations/companies/aws.png"
-  },
-  {
-    "id": 13,
-    "name": "Oracle",
-    "role": "Database Partner",
-    "logo": "/assets/collaborations/companies/oracle.png"
-  },
-  {
-    "id": 14,
-    "name": "Deloitte",
-    "role": "Consulting Partner",
-    "logo": "/assets/collaborations/companies/deloitte.png"
-  },
-  {
-    "id": 15,
-    "name": "EY",
-    "role": "Industry Partner",
-    "logo": "/assets/collaborations/companies/ey.png"
-  },
-  {
-    "id": 16,
-    "name": "PwC",
-    "role": "Corporate Partner",
-    "logo": "/assets/collaborations/companies/pwc.png"
-  },
-  {
-    "id": 17,
-    "name": "Zoho",
-    "role": "Product Partner",
-    "logo": "/assets/collaborations/companies/zoho.png"
-  },
-  {
-    "id": 18,
-    "name": "Freshworks",
-    "role": "Technology Partner",
-    "logo": "/assets/collaborations/companies/freshworks.png"
-  },
-  {
-    "id": 19,
-    "name": "Persistent Systems",
-    "role": "Hiring Partner",
-    "logo": "/assets/collaborations/companies/persistent.png"
-  },
-  {
-    "id": 20,
-    "name": "Virtusa",
-    "role": "Placement Partner",
-    "logo": "/assets/collaborations/companies/virtusa.png"
+    "logo": "https://static.vecteezy.com/system/resources/previews/024/983/639/non_2x/microsoft-logo-transparent-free-png.png"
   }
 ]
