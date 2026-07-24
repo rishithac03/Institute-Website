@@ -68,8 +68,7 @@ const About = () => {
         <div className="container">
           <div className="banner-left">
             <h1 className="breadcrumb"> About Us </h1>
-            <p>We empower students with practical knowledge, industry-focused training, and career guidance to help them succeed in today's competitive world.
-            </p>
+            <p>We ignite potential by transforming ambition into tangible achievement, bridging the gap between classroom theory and real-world mastery. Our sanctuary of learning breathes life into knowledge through hands-on practice, cultivating the sharp intellects and industry-ready skills demanded by tomorrow’s marketplace. With a compass of dedicated mentorship and professional career guidance, we empower students to rise above competition, unlock their highest purpose, and carve a brilliant path to enduring success.</p>
           </div>
           <div className="banner-right">
             <img src={img} alt="About" />
@@ -178,7 +177,7 @@ const About = () => {
           <div className="cta-content">
             <h2> Ready to Start Your Career Journey? </h2>
             <p> Join our institute and gain the practical skills required to succeed in today's industry. </p>
-            <NavLink to="/courses" classname="cta-btn"> Explore Courses </NavLink>
+            <NavLink to="/courses" className="explore-btn"> Explore Courses </NavLink>
           </div>
         </div>
       </section>

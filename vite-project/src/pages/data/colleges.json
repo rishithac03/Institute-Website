@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "ABC Engineering College",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Providing industry-oriented engineering education with modern laboratories and research facilities.",
+    "logo": "/assets/collaborations/colleges/abc.png",
+    "programs": ["Full Stack", "Python", "AI & ML", "Data Science"]
+  },
+  {
+    "id": 2,
+    "name": "Sridevi Women's Engineering College",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Focused on empowering women through quality technical education and industry collaboration.",
+    "logo": "/assets/collaborations/colleges/sridevi.png",
+    "programs": ["Java Full Stack", "Python", "Cloud Computing", "Cyber Security"]
+  },
+  {
+    "id": 3,
+    "name": "Malla Reddy Engineering College",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Offering innovative engineering programs with strong placement support and research opportunities.",
+    "logo": "/assets/collaborations/colleges/mrec.png",
+    "programs": ["MERN Stack", "AI & ML", "Data Analytics", "IoT"]
+  },
+  {
+    "id": 4,
+    "name": "CMR Institute of Technology",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Known for academic excellence, innovation, and industry-focused skill development.",
+    "logo": "/assets/collaborations/colleges/cmr.png",
+    "programs": ["React", "Node.js", "Python", "Machine Learning"]
+  },
+  {
+    "id": 5,
+    "name": "VNR Vignana Jyothi Institute of Engineering and Technology",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Committed to producing industry-ready graduates through practical learning and research.",
+    "logo": "/assets/collaborations/colleges/vnr.png",
+    "programs": ["Java", "AWS", "DevOps", "Data Science"]
+  },
+  {
+    "id": 6,
+    "name": "Institute of Aeronautical Engineering",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Providing high-quality technical education with excellent industry partnerships.",
+    "logo": "/assets/collaborations/colleges/iae.png",
+    "programs": ["Python", "Full Stack", "AI", "Cloud Computing"]
+  },
+  {
+    "id": 7,
+    "name": "Anurag University",
+    "type": "Private University",
+    "location": "Hyderabad",
+    "description": "A multidisciplinary university offering industry-driven education and innovation programs.",
+    "logo": "/assets/collaborations/colleges/anurag.png",
+    "programs": ["MERN Stack", "Cyber Security", "AI & ML", "Data Analytics"]
+  },
+  {
+    "id": 8,
+    "name": "MLR Institute of Technology",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Providing advanced technical education with a focus on innovation and employability.",
+    "logo": "/assets/collaborations/colleges/mlrit.png",
+    "programs": ["Java Full Stack", "Python", "DevOps", "Cloud Computing"]
+  },
+  {
+    "id": 9,
+    "name": "Guru Nanak Institutions Technical Campus",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Offering quality engineering education with strong industry collaboration and placements.",
+    "logo": "/assets/collaborations/colleges/gnitc.png",
+    "programs": ["AI & ML", "Data Science", "React", "Java"]
+  },
+  {
+    "id": 10,
+    "name": "CVR College of Engineering",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Recognized for academic excellence, innovation, and successful placement programs.",
+    "logo": "/assets/collaborations/colleges/cvr.png",
+    "programs": ["Python", "Machine Learning", "AWS", "MERN Stack"]
+  }
+]

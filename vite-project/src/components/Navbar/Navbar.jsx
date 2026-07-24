@@ -47,7 +47,7 @@ function Navbar() {
             <div className="container">
                 <NavLink to="/" className="logo">
                 <div className="logo-circle"> OR </div>
-                    <div> <h2>Offera</h2></div>
+                    <div> <h2>OfferEra</h2></div>
                 </NavLink>
                 <nav className="desktop-nav">
                     <NavLink to="/" end>Home</NavLink>
@@ -58,8 +58,8 @@ function Navbar() {
                         {dropdown && (
                             <div className="dropdown-menu">
                                 <div className="dropdown-links">
-                                    <NavLink to="/collaborations"> Institutes </NavLink>
-                                    <NavLink to="/collaborations"> Partner Companies </NavLink>
+                                    <NavLink to="/collaborations#colleges"> Colleges </NavLink>
+                                    <NavLink to="/collaborations#companies"> Partner Companies </NavLink>
                                 </div>
                             </div>
                         )}

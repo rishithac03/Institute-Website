@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Infosys",
+    "role": "Hiring Partner",
+    "logo": "/assets/collaborations/companies/infosys.png"
+  },
+  {
+    "id": 2,
+    "name": "TCS",
+    "role": "Technology Partner",
+    "logo": "/assets/collaborations/companies/tcs.png"
+  },
+  {
+    "id": 3,
+    "name": "Wipro",
+    "role": "Hiring Partner",
+    "logo": "/assets/collaborations/companies/wipro.png"
+  },
+  {
+    "id": 4,
+    "name": "Accenture",
+    "role": "Industry Partner",
+    "logo": "/assets/collaborations/companies/accenture.png"
+  },
+  {
+    "id": 5,
+    "name": "Capgemini",
+    "role": "Technology Partner",
+    "logo": "/assets/collaborations/companies/capgemini.png"
+  },
+  {
+    "id": 6,
+    "name": "Cognizant",
+    "role": "Hiring Partner",
+    "logo": "/assets/collaborations/companies/cognizant.png"
+  },
+  {
+    "id": 7,
+    "name": "HCL Technologies",
+    "role": "Training Partner",
+    "logo": "/assets/collaborations/companies/hcl.png"
+  },
+  {
+    "id": 8,
+    "name": "Tech Mahindra",
+    "role": "Placement Partner",
+    "logo": "/assets/collaborations/companies/techmahindra.png"
+  },
+  {
+    "id": 9,
+    "name": "IBM",
+    "role": "Technology Partner",
+    "logo": "/assets/collaborations/companies/ibm.png"
+  },
+  {
+    "id": 10,
+    "name": "Microsoft",
+    "role": "Cloud Partner",
+    "logo": "/assets/collaborations/companies/microsoft.png"
+  },
+  {
+    "id": 11,
+    "name": "Google",
+    "role": "Innovation Partner",
+    "logo": "/assets/collaborations/companies/google.png"
+  },
+  {
+    "id": 12,
+    "name": "Amazon Web Services",
+    "role": "Cloud Training Partner",
+    "logo": "/assets/collaborations/companies/aws.png"
+  },
+  {
+    "id": 13,
+    "name": "Oracle",
+    "role": "Database Partner",
+    "logo": "/assets/collaborations/companies/oracle.png"
+  },
+  {
+    "id": 14,
+    "name": "Deloitte",
+    "role": "Consulting Partner",
+    "logo": "/assets/collaborations/companies/deloitte.png"
+  },
+  {
+    "id": 15,
+    "name": "EY",
+    "role": "Industry Partner",
+    "logo": "/assets/collaborations/companies/ey.png"
+  },
+  {
+    "id": 16,
+    "name": "PwC",
+    "role": "Corporate Partner",
+    "logo": "/assets/collaborations/companies/pwc.png"
+  },
+  {
+    "id": 17,
+    "name": "Zoho",
+    "role": "Product Partner",
+    "logo": "/assets/collaborations/companies/zoho.png"
+  },
+  {
+    "id": 18,
+    "name": "Freshworks",
+    "role": "Technology Partner",
+    "logo": "/assets/collaborations/companies/freshworks.png"
+  },
+  {
+    "id": 19,
+    "name": "Persistent Systems",
+    "role": "Hiring Partner",
+    "logo": "/assets/collaborations/companies/persistent.png"
+  },
+  {
+    "id": 20,
+    "name": "Virtusa",
+    "role": "Placement Partner",
+    "logo": "/assets/collaborations/companies/virtusa.png"
+  }
+]
