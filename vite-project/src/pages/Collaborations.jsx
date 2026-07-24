@@ -118,7 +118,7 @@ function Collaborations() {
   return (
     <div className="collaborations-page">
       <section className="collab-hero">
-        <div className="collab-container hero-grid">
+        <div className="collab-hero-grid">
           <div className="collab-hero-content">
             <span className="collab-hero-badge">
               Academic & Industry Collaborations
@@ -141,45 +141,8 @@ function Collaborations() {
               <a href="#companies" className="collab-secondary-btn">
                 Industry Partners
               </a>
-
             </div>
-
           </div>
-
-          <div className="collab-hero-cards">
-
-            <div className="collab-hero-card">
-
-              <div className="collab-hero-icon">
-                🎓
-              </div>
-
-              <h3>Academic Excellence</h3>
-
-              <p>
-                Collaborating with reputed colleges to provide
-                industry-oriented education.
-              </p>
-
-            </div>
-
-            <div className="collab-hero-card">
-
-              <div className="collab-hero-icon">
-                💼
-              </div>
-
-              <h3>Industry Exposure</h3>
-
-              <p>
-                Connecting students with leading organizations
-                through internships and placements.
-              </p>
-
-            </div>
-
-          </div>
-
         </div>
 
       </section>

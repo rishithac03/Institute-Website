@@ -97,16 +97,17 @@
 .about-page .banner-left h1{
     font-size:46px;
     font-weight:700;
-    color:#222;
+    color:#ff7700;
     line-height:1.25;
     margin-bottom:18px;
 }
 
 .about-page .banner-left p{
-    color:#666;
+    color: #000;;
     font-size:16px;
     line-height:1.8;
     margin-bottom:18px;
+    text-align: justify;
 }
 
 .about-page .banner-right{

@@ -7,52 +7,52 @@
     color:#222;
 }
 
-.collaborations-page *{
+.collaborations-page .collab-hero .collab-container *{
+    width:100%;
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
 .collab-container{
-    width:90%;
-    max-width:1200px;
+    width:100%;
     margin:auto;
 }
-
-/* ===========================
-   COMMON SECTION
-=========================== */
-
 .collaborations-page section{
-    padding:60px 0;
+    padding:35px 0;
 }
 
 .collaborations-page .section-header{
     text-align:center;
-    margin-bottom:35px;
+    max-width:800px;
+    margin:0 auto 30px;
 }
 
 .collaborations-page .section-header span{
+    display:inline-block;
     color:#ff7700;
-    font-size:14px;
+    font-size:20px;
     font-weight:600;
-    letter-spacing:1px;
+    letter-spacing:2px;
     text-transform:uppercase;
+    margin-bottom:10px;
 }
 
 .collaborations-page .section-header h2{
-    font-size:34px;
+    font-size:42px;
     font-weight:700;
-    margin:8px 0;
     color:#222;
+    line-height:1.2;
+    margin-bottom:15px;
 }
 
 .collaborations-page .section-header p{
+    font-size:17px;
     color:#666;
-    max-width:720px;
+    line-height:1.8;
     margin:auto;
-    line-height:1.7;
 }
+
 
 .collab-hero{
     background:#f8f9fa;
@@ -68,7 +68,8 @@
 }
 
 .collab-hero-content{
-    max-width:850px;
+    margin:0;
+    padding:10px 0;
 }
 
 .collab-hero-badge{
@@ -98,6 +99,8 @@
     line-height:1.8;
     font-size:17px;
     margin-bottom:30px;
+    width:1000px;
+    padding-left:100px;
 }
 
 .collab-hero-buttons{
@@ -135,54 +138,6 @@
     color:#fff;
 }
 /* ===========================
-   HERO CARDS
-=========================== */
-
-.collab-hero-cards{
-    width:100%;
-    display:flex;
-    justify-content:center;
-    gap:30px;
-    flex-wrap:wrap;
-}
-
-.collab-hero-card{
-    background:#fff;
-    width:340px;
-    padding:35px 25px;
-    border-radius:16px;
-    box-shadow:0 8px 25px rgba(0,0,0,.08);
-    transition:.3s;
-    text-align:center;
-}
-
-.collab-hero-card:hover{
-    transform:translateY(-8px);
-}
-
-.collab-hero-icon{
-    width:70px;
-    height:70px;
-    margin:0 auto 20px;
-    border-radius:50%;
-    background:#fff3eb;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:34px;
-}
-
-.collab-hero-card h3{
-    font-size:22px;
-    margin-bottom:15px;
-    color:#222;
-}
-
-.collab-hero-card p{
-    color:#666;
-    line-height:1.7;
-}
-/* ===========================
    STATS
 =========================== */
 
@@ -191,7 +146,8 @@
 }
 
 .stats-grid{
-
+    padding-left:100px;
+    padding-right:100px;
     display:grid;
     grid-template-columns:repeat(4,1fr);
     gap:20px;
@@ -199,11 +155,11 @@
 
 .stat-card{
 
-    background:#fff;
+    background:#f8f8f8;
     text-align:center;
     border-radius:15px;
     padding:24px;
-    border:1px solid #ececec;
+    border:1px solid rgb(162, 160, 160);
     box-shadow:0 6px 20px rgba(0,0,0,.05);
     transition:.3s;
 }
@@ -257,6 +213,8 @@
 }
 
 .college-slider{
+    padding-top:10px;
+    padding-bottom:10px;
     width:100%;
     overflow:hidden;
     position:relative;
@@ -292,7 +250,7 @@
     background:#fff;
     border-radius:18px;
     overflow:hidden;
-    border:1px solid #ececec;
+    border:1px solid rgb(162, 160, 160);
     box-shadow:0 8px 25px rgba(0,0,0,.06);
     transition:.35s;
 }
@@ -315,8 +273,7 @@
 }
 
 .college-logo{
-
-    width:95px;
+    width:300px;
     height:95px;
     object-fit:contain;
 }
@@ -397,13 +354,14 @@
     display:grid;
     grid-template-columns:repeat(3,1fr);
     gap:22px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .benefit-card{
-
     background:#fff;
     border-radius:18px;
-    border:1px solid #ececec;
+    border:1px solid rgb(162, 160, 160);
     padding:26px;
     text-align:center;
     transition:.35s;
@@ -457,7 +415,8 @@
 }
 
 .company-slider{
-
+    padding-top:10px;
+    padding-bottom:10px;
     overflow:hidden;
     width:100%;
     position:relative;
@@ -495,7 +454,7 @@
 
     background:#fff;
     border-radius:18px;
-    border:1px solid #ececec;
+    border:1px solid rgb(162, 160, 160);
     box-shadow:0 8px 22px rgba(0,0,0,.06);
 
     text-align:center;
@@ -511,25 +470,19 @@
 }
 
 .company-logo-wrapper{
-
-    width:90px;
-    height:90px;
-
     margin:auto;
     margin-bottom:18px;
-
     display:flex;
     align-items:center;
     justify-content:center;
-
-    border-radius:50%;
+    border-radius:90px;
     background:#fafafa;
 }
 
 .company-logo{
 
-    width:65px;
-    height:65px;
+    width:200px;
+    height: 95px;
     object-fit:contain;
 }
 
@@ -560,135 +513,43 @@
     color:#666;
     line-height:1.7;
 }
-/*=========================================
-        COLLABORATION PROCESS
-=========================================*/
-
-.process-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:25px;
-    margin-top:10px;
-    position:relative;
-}
-
-.process-grid::before{
-    content:"";
-    position:absolute;
-    top:45px;
-    left:10%;
-    right:10%;
-    height:3px;
-    background:#ffe2d7;
-    z-index:0;
-}
-
-.process-card{
-    position:relative;
-    background:#fff;
-    border:1px solid #ececec;
-    border-radius:18px;
-    padding:25px;
-    text-align:center;
-    transition:.35s;
-    z-index:1;
-}
-
-.process-card:hover{
-    transform:translateY(-8px);
-    border-color:#ff7700;
-    box-shadow:0 12px 30px rgba(0,0,0,.08);
-}
-
-.process-number{
-
-    width:65px;
-    height:65px;
-
-    margin:auto;
-    margin-top:-55px;
-    margin-bottom:18px;
-
-    border-radius:50%;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    background:#ff7700;
-    color:#fff;
-
-    font-size:24px;
-    font-weight:700;
-
-    border:6px solid #fff;
-    box-shadow:0 5px 18px rgba(255,107,53,.25);
-}
-
-.process-card h3{
-
-    margin-bottom:12px;
-    color:#222;
-}
-
-.process-card p{
-
-    color:#666;
-    line-height:1.7;
-}
 
 /*=========================================
             CTA SECTION
 =========================================*/
 
 .collab-cta{
-
-    padding:70px 0;
+    padding:80px 0;
 }
 
 .cta-box{
-
     background:#ff7700;
-
     color:#fff;
-
-    border-radius:22px;
-
+    border-radius: 10px;
     padding:55px 35px;
-
     text-align:center;
-
     box-shadow:0 15px 35px rgba(255,107,53,.25);
 }
 
 .cta-box h2{
-
     font-size:38px;
     margin-bottom:18px;
 }
 
 .cta-box p{
-
     max-width:760px;
     margin:auto;
-
     line-height:1.8;
-
     opacity:.95;
 }
 
-.cta-buttons{
-
+.cta-box .cta-buttons{
     margin-top:30px;
-
     display:flex;
     justify-content:center;
     gap:18px;
     flex-wrap:wrap;
 }
-
-/* CTA Buttons */
-
 .cta-box .primary-btn{
 
     background:#fff;
@@ -703,7 +564,7 @@
 
 .cta-box .secondary-btn{
 
-    border:2px solid #fff;
+    border:2px solid white;
     color:#fff;
     background:transparent;
 }
@@ -711,7 +572,7 @@
 .cta-box .secondary-btn:hover{
 
     background:#fff;
-    color:#ff7700;
+    color: #555;
 }
 
 /*=========================================
@@ -741,25 +602,6 @@
     box-shadow:0 18px 35px rgba(0,0,0,.10);
 }
 
-/*=========================================
-          SCROLLBAR
-=========================================*/
-
-::-webkit-scrollbar{
-
-    width:8px;
-}
-
-::-webkit-scrollbar-thumb{
-
-    background:#ff7700;
-    border-radius:20px;
-}
-
-::-webkit-scrollbar-track{
-
-    background:#f3f3f3;
-}
 
 /*=========================================
           RESPONSIVE
