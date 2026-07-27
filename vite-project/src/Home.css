@@ -24,7 +24,7 @@ body{
 
     height:100vh;
 
-    overflow:hidden;
+    overflow:visible;
 
 }
 
@@ -545,7 +545,7 @@ body{
 
 .close-btn:hover {
   color: #ff3b30;
-  transform: rotate(90deg);
+
 }
 
 @keyframes popupSlide {
