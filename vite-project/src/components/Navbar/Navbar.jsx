@@ -66,7 +66,7 @@ function Navbar() {
                         )}
                     </div>
 
-                    <NavLink to="/testimonials"> Testimonials </NavLink>
+                    <NavLink to="/certificate"> Certificate Generation </NavLink>
                     <NavLink to="/contact"> Contact </NavLink>
                     <NavLink to="/register" className="register-btn"> Register </NavLink>
                 </nav>
@@ -86,6 +86,8 @@ function Navbar() {
                             <NavLink to="/careers"> Career Opportunities </NavLink>
                             <NavLink to="/jobs"> Job Predictions </NavLink>
                             <NavLink to="/resources"> Resources </NavLink>
+                            <NavLink to="/certificate"> Certificate Generation </NavLink>
+
                         </div>
                     )}
                     {mobileMenu && (
@@ -96,7 +98,7 @@ function Navbar() {
                             <NavLink to="/about">About</NavLink>
                             <NavLink to="/courses">Courses</NavLink>
                             <NavLink to="/collaborations"> Collaborations </NavLink>
-                            <NavLink to="/testimonials"> Testimonials </NavLink>
+                            <NavLink to="/certificate"> Certificate Generation</NavLink>
                             <NavLink to="/contact"> Contact </NavLink>
                             <NavLink to="/careers"> Career Opportunities </NavLink>
                             <NavLink to="/jobs"> Jobs </NavLink>

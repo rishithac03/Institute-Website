@@ -17,7 +17,7 @@ const DemoPage = () => {
       style={{
         minHeight: "100vh",
         background:
-          "linear-gradient(135deg, #0f172a, #1e293b, #111827)",
+          "linear-gradient(135deg, #d3d8e3, #f0e6df, #e8edf3)",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -38,7 +38,7 @@ const DemoPage = () => {
       >
         <h1
           style={{
-            color: "#fff",
+            color: "#0f0d0d",
             marginBottom: "10px",
             fontSize: "40px",
           }}
@@ -48,7 +48,7 @@ const DemoPage = () => {
 
         <p
           style={{
-            color: "#d1d5db",
+            color: "#3a3b3d",
             marginBottom: "30px",
             fontSize: "18px",
           }}
