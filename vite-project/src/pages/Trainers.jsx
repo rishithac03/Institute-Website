@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { FaSearch, FaArrowRight } from "react-icons/fa";
 import trainers from "../pages/data/trainers.json";
 import "../styles/trainers.css";
+import { NavLink } from "react-router-dom";
 
 const Trainer = () => {
     const [search, setSearch] = useState("");
@@ -149,13 +150,13 @@ const Trainer = () => {
 
                 <div className="trainer-cta-buttons">
 
-                    <button className="trainer-primary-btn">
+                    <NavLink to="/courses"className="trainer-primary-btn">
                         Explore Courses
-                    </button>
+                    </NavLink>
 
-                    <button className="trainer-secondary-btn">
+                    <NavLink to="/contact" className="trainer-secondary-btn" >
                         Contact Us
-                    </button>
+                    </NavLink>
 
                 </div>
 
