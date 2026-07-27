@@ -4,8 +4,8 @@
     "name": "Rahul Sharma",
     "designation": "Senior Full Stack Trainer",
     "experience": "10+ Years",
-    "courses": ["MERN Stack", "React", "Node.js"],
-    "skills": ["React", "Node.js", "MongoDB", "Express", "AWS"],
+    "courses": ["MERN Stack", "React", "Node.js", "Express"],
+    "skills": ["React", "Node.js", "MongoDB", "Express"],
     "image": "https://static.vecteezy.com/system/resources/thumbnails/036/463/112/small_2x/ai-generated-confident-indian-businessman-portrait-png.png",
     "bio": "Experienced Full Stack Developer and trainer with expertise in building scalable web applications and mentoring aspiring developers.",
     "certifications": [
@@ -19,7 +19,7 @@
     "designation": "Python & Data Science Trainer",
     "experience": "8+ Years",
     "courses": ["Python", "Data Science", "Machine Learning"],
-    "skills": ["Python", "Pandas", "NumPy", "Scikit-Learn", "Power BI"],
+    "skills": ["Python", "Pandas", "NumPy", "Power BI"],
     "image": "https://static.vecteezy.com/system/resources/thumbnails/036/459/932/small_2x/ai-generated-confident-young-indian-businessman-portrait-png.png",
     "bio": "Specializes in Data Science and Machine Learning with extensive experience in corporate training and real-world analytics projects.",
     "certifications": [
@@ -32,8 +32,8 @@
     "name": "Anil Kumar",
     "designation": "Java Full Stack Trainer",
     "experience": "9+ Years",
-    "courses": ["Java", "Spring Boot", "Hibernate"],
-    "skills": ["Java", "Spring Boot", "Hibernate", "MySQL", "REST APIs"],
+    "courses": ["Java", "Spring Boot", "Hibernate","JavaScript"],
+    "skills": ["Java", "Spring Boot", "MySQL", "REST APIs"],
     "image": "https://static.vecteezy.com/system/resources/previews/036/459/908/non_2x/ai-generated-confident-indian-businessman-portrait-png.png",
     "bio": "Industry professional with strong expertise in enterprise Java applications and backend development.",
     "certifications": [
@@ -47,7 +47,7 @@
     "experience": "7+ Years",
     "courses": ["HTML", "CSS", "JavaScript", "UI/UX"],
     "skills": ["HTML", "CSS", "JavaScript", "Figma", "Adobe XD"],
-    "image": "https://static.vecteezy.com/system/resources/thumbnails/059/322/555/small_2x/businesswoman-with-a-laptop-standing-at-copy-space-on-a-transparent-background-png.png",
+    "image": "https://i.pinimg.com/736x/eb/16/a7/eb16a71a1038107f9f625459f04a31de.jpg",
     "bio": "Creative frontend developer passionate about designing intuitive user interfaces and modern web experiences.",
     "certifications": [
       "Google UX Design",
@@ -61,7 +61,7 @@
     "experience": "11+ Years",
     "courses": ["AWS", "Azure", "Docker", "Kubernetes"],
     "skills": ["AWS", "Docker", "Kubernetes", "Jenkins", "Linux"],
-    "image": "https://th.bing.com/th/id/R.aecce39602b0e30f5cffa8a049f91e3c?rik=7d8b6DVl1Y74CA&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fa%2fe%2fc%2fc%2f1364125264782739178passport.jpg&ehk=fXajciNC5FhII0X5s%2frc89fIo67eOYWAa5k78uYUEew%3d&risl=&pid=ImgRaw&r=0",
+    "image": "https://static.vecteezy.com/system/resources/previews/036/498/929/original/ai-generated-confident-indian-man-in-a-formal-suit-on-transparent-background-ai-png.png",
     "bio": "Cloud architect with extensive experience in DevOps automation, cloud infrastructure, and CI/CD implementation.",
     "certifications": [
       "AWS Solutions Architect",
@@ -75,7 +75,7 @@
     "experience": "8+ Years",
     "courses": ["Manual Testing", "Selenium", "API Testing"],
     "skills": ["Selenium", "Postman", "JUnit", "TestNG", "JMeter"],
-    "image": "https://static.vecteezy.com/system/resources/thumbnails/059/322/509/small_2x/woman-in-formal-attire-with-laptop-and-copy-space-clipart-png.png",
+    "image": "https://png.pngtree.com/png-vector/20250209/ourmid/pngtree-young-asian-indian-office-professional-in-formal-wear-png-image_15432372.png",
     "bio": "QA professional with expertise in automation testing and preparing students for software testing careers.",
     "certifications": [
       "ISTQB Certified Tester"

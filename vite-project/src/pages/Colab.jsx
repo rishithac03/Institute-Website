@@ -14,7 +14,7 @@ const Colab = () => {
     <div
       style={{
         width: "100%",
-        padding: "70px 0",
+        padding: "20px 0",
         background: "#f8f9fa",
         overflow: "hidden",
       }}
@@ -34,7 +34,7 @@ const Colab = () => {
         style={{
           textAlign: "center",
           color: "#666",
-          marginBottom: "50px",
+          marginBottom: "30px",
           fontSize: "18px",
         }}
       >
@@ -44,7 +44,7 @@ const Colab = () => {
       <div
         style={{
           display: "flex",
-          gap: "70px",
+          gap: "30px",
           width: "max-content",
           animation: "scroll 20s linear infinite",
         }}

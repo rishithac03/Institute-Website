@@ -427,7 +427,8 @@ color:#666;
 
 .faq-help-cards{
 display:grid;
-grid-template-columns:repeat(3,1fr);
+grid-template-columns:repeat(3,300px);
+justify-content: center;
 gap:50px;
 }
 
@@ -457,7 +458,6 @@ display:flex;
 align-items:center;
 justify-content:center;
 border-radius:50%;
-background:#fff1e6;
 color:#ff7700;
 font-size:1.6rem;
 margin-bottom:20px;
