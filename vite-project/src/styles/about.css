@@ -38,7 +38,7 @@
 ======================================*/
 
 .about-page section{
-    padding:55px 0;
+    padding:25px 0;
 }
 
 .about-page .section-tag{
@@ -274,7 +274,7 @@
     border-radius:18px;
     padding:32px 28px;
     box-shadow:0 8px 22px rgba(0,0,0,.06);
-    transition:.3s;
+
 }
 
 .about-page .mission-card:hover{
@@ -356,7 +356,7 @@
 .about-page .achievement-card:hover,
 .about-page .mission-card:hover,
 .about-page .choose-card:hover{
-    transform:translateY(-8px) scale(1.02);
+    transform:translateY(-4px) scale(0.99);
     border-color:#ff7700;
     box-shadow:0 18px 36px rgba(0,0,0,.14);
 }
