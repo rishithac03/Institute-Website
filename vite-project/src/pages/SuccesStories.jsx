@@ -33,11 +33,7 @@ function SuccessStories() {
       icon: <FaLaptopCode />,
       title: "Best Projects",
     },
-    {
-      id: "hackathon",
-      icon: <FaAward />,
-      title: "Hackathon Winners",
-    },
+    
   ];
 
   const filteredData = data.filter(
@@ -352,82 +348,7 @@ function SuccessStories() {
 
       )}
 
-      {/* ===================================================
-                    HACKATHON WINNERS
-      =================================================== */}
-
-      {activeCategory === "hackathon" && (
-
-        <section className="hackathon-section">
-
-          <div className="section-title">
-
-            <h2>Hackathon Winners</h2>
-
-            <button>
-
-              View All →
-
-            </button>
-
-          </div>
-
-          <div className="timeline">
-
-            {filteredData.map((story, index) => (
-
-              <div
-                key={story.id}
-                className="timeline-item"
-              >
-
-                <div className="timeline-dot"></div>
-
-                {index !== filteredData.length - 1 && (
-
-                  <div className="timeline-line"></div>
-
-                )}
-
-                <div className="timeline-card">
-
-                  <img
-                    src={story.certificate}
-                    alt={story.title}
-                    className="certificate"
-                  />
-
-                  <div>
-
-                    <span className="winner-tag">
-
-                      {story.status}
-
-                    </span>
-
-                    <h3>{story.title}</h3>
-
-                    <p>{story.event}</p>
-
-                    <a href="#">
-
-                      View Details →
-
-                    </a>
-
-                  </div>
-
-                </div>
-
-              </div>
-
-            ))}
-
-          </div>
-
-        </section>
-
-      )}
+      
 
     </section>
 
