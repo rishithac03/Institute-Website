@@ -24,7 +24,7 @@
     content:"";
     width:45px;
     height:3px;
-    background:#ff7b00;
+    /* background:#ff7b00; */
     position:absolute;
     left:0;
     bottom:-8px;
@@ -67,13 +67,14 @@
 }
 
 .footer-section p:hover{
-    color:white;
+    color:#ff7b00;
     transition:.3s;
 }
 
 .social-icons{
     display:flex;
     gap:18px;
+    margin-left:-50px;
     margin-top:15px;
 }
 
@@ -93,7 +94,7 @@
 
 .social-icons a:hover{
     transform:translateY(-2px)  scale(1);
-    background:#434242;
+    background:#ff7b00;
     box-shadow:0 8px 25px rgba(53, 53, 52, 0.45);
 }
 
