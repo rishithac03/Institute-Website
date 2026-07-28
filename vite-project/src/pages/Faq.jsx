@@ -43,18 +43,6 @@ const FAQ = () => {
           Browse through our frequently asked questions about admissions,
           courses, placements, fees, certifications, and more.
         </p>
-
-
-        {/* <div className="faq-search">
-          <FaSearch className="faq-search-icon" />
-
-          <input
-            type="text"
-            placeholder="Search your question..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-          />
-        </div> */}
       </div>
 
       {/* ================= FAQ ================= */}
@@ -128,61 +116,6 @@ const FAQ = () => {
           )}
         </div>
       </div>
-
-      {/* ================= Need Help ================= */}
-
-      <section className="faq-help-section">
-        <div className="faq-help-header">
-          <h2>
-            Didn't Find Your <span>Answer?</span>
-          </h2>
-
-          <p>
-            Our support team is always happy to assist you. Feel free to
-            contact us using any of the options below.
-          </p>
-        </div>
-
-        <div className="faq-help-cards">
-          <a href="tel:+919876543210" className="faq-help-card">
-            <div className="faq-help-icon">
-              <FaPhoneAlt />
-            </div>
-
-            <h4>Call Us</h4>
-
-            <p>+91 98765 43210</p>
-          </a>
-
-          <a
-            href="mailto:info@yourinstitute.com"
-            className="faq-help-card"
-          >
-            <div className="faq-help-icon">
-              <FaEnvelope />
-            </div>
-
-            <h4>Email Us</h4>
-
-            <p>info@yourinstitute.com</p>
-          </a>
-
-          <a
-            href="https://wa.me/919876543210"
-            target="_blank"
-            rel="noreferrer"
-            className="faq-help-card"
-          >
-            <div className="faq-help-icon">
-              <FaWhatsapp />
-            </div>
-
-            <h4>WhatsApp</h4>
-
-            <p>Chat with our team</p>
-          </a>
-        </div>
-      </section>
     </section>
   );
 };
