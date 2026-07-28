@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "category": "placements",
+    "rank": 1,
+    "name": "Rahul Sharma",
+    "designation": "Frontend Developer",
+    "company": "Amazon",
+    "companyLogo": "https://tse1.mm.bing.net/th/id/OIP.xukJIy1MG3ihILL0E-ENaQHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "package": "₹18 LPA",
+    "photo": "https://tse3.mm.bing.net/th/id/OIP.SgGiUS3kUp7El9XmaBebDwHaJe?r=0&w=663&h=848&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "id": 2,
+    "category": "placements",
+    "rank": 2,
+    "name": "Priya Verma",
+    "designation": "Software Engineer",
+    "company": "TCS",
+    "companyLogo": "https://tse3.mm.bing.net/th/id/OIP.ia06qoSPgY3Ngyr_PH_eTAHaBw?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "package": "₹12 LPA",
+    "photo": "https://i.pinimg.com/736x/0b/7c/f4/0b7cf4a74a7d6966ea0c274b46887421.jpg"
+  },
+  {
+    "id": 3,
+    "category": "placements",
+    "rank": 3,
+    "name": "Akash Kumar",
+    "designation": "React Developer",
+    "company": "Infosys",
+    "companyLogo": "https://w7.pngwing.com/pngs/687/655/png-transparent-infosys-logo-thumbnail.png",
+    "package": "₹10 LPA",
+    "photo": "https://tse2.mm.bing.net/th/id/OIP.30rtTmzXEP8ZmW7Hhbh2FAHaJo?r=0&w=657&h=855&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  {
+    "id": 4,
+    "category": "student",
+    "month": "July",
+    "name": "Neha Reddy",
+    "photo": "https://tse4.mm.bing.net/th/id/OIP.1tmLXcbfqbdcE_xmGuiAfAAAAA?r=0&w=402&h=520&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "points": [
+      "100% Attendance",
+      "Highest Coding Score",
+      "Best Discipline",
+      "Peer Mentor"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "student",
+    "month": "July",
+    "name": "Anjali Sharma",
+    "photo": "https://th.bing.com/th/id/OIP.wEkTLJI2fH9oeEY8SyHHZAAAAA?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "points": [
+      "Excellent Communication",
+      "Outstanding Leadership",
+      "Top Academic Performer",
+      "Club Coordinator"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "student",
+    "month": "July",
+    "name": "Vikram Kumar",
+    "photo": "https://imgroupofresearchers.com/wp-content/uploads/2023/05/MU.jpg",
+    "points": [
+      "100% Attendance",
+      "Hackathon Finalist",
+      "Peer Mentor",
+      "Coding Club President"
+    ]
+  },
+
+  {
+    "id": 7,
+    "category": "projects",
+    "title": "Restaurant Management System",
+    "tech": [
+      "React",
+      "Redux",
+      "Responsive"
+    ],
+    "image": "https://tse4.mm.bing.net/th/id/OIP.h7_k9_I7rRjfYgxCu0X-iwHaEi?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "id": 8,
+    "category": "projects",
+    "title": "College ERP Portal",
+    "tech": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "image": "https://tse1.mm.bing.net/th/id/OIP.S8NItFwFiWD6vHn8I4qDagHaD8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "id": 9,
+    "category": "projects",
+    "title": "Online Library System",
+    "tech": [
+      "React",
+      "Express",
+      "MySQL"
+    ],
+    "image": "https://www.phpzag.com/wp-content/uploads/2022/06/library-management-system-php-min-1024x568.png"
+  },
+
+  {
+    "id": 10,
+    "category": "hackathon",
+    "title": "AI Healthcare Assistant",
+    "event": "National Hackathon",
+    "status": "Winner",
+    "certificate": "https://cdn1.designhill.com/uploads/personal_designs/ab0873a38381dd139895baa3e672e0c0-74523d50e75c837746758b690b6557b316241611768264.png?ver=2.12.78"
+  },
+  {
+    "id": 11,
+    "category": "hackathon",
+    "title": "Smart Traffic Management",
+    "event": "Smart India Hackathon",
+    "status": "Runner-Up",
+    "certificate": "https://cdn1.designhill.com/uploads/personal_designs/ab0873a38381dd139895baa3e672e0c0-74523d50e75c837746758b690b6557b316241611768264.png?ver=2.12.78"
+  },
+  {
+    "id": 12,
+    "category": "hackathon",
+    "title": "Agriculture Drone Monitoring",
+    "event": "TechFest Innovation Challenge",
+    "status": "Finalist",
+    "certificate": "https://cdn1.designhill.com/uploads/personal_designs/ab0873a38381dd139895baa3e672e0c0-74523d50e75c837746758b690b6557b316241611768264.png?ver=2.12.78"
+  }
+]

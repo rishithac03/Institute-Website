@@ -8,6 +8,7 @@ import Testimonials from "./pages/Testimonials";
 import Faq from "./pages/Faq";
 import Mode from './Mode';
 import Trainer from "./pages/Trainers";
+import SuccessStories from "./pages/SuccesStories";
 
 const Home = () => {
   const [showDemoCard, setShowDemoCard] = useState(true);
@@ -90,6 +91,7 @@ const Home = () => {
       <Trainer />
       <Testimonials />
       <Faq />
+      {/* <SuccessStories /> */}
     </div>
   );
 };
