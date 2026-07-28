@@ -49,7 +49,7 @@
   {
     "id": 5,
     "category": "student",
-    "month": "July",
+    "month": "June",
     "name": "Anjali Sharma",
     "photo": "https://th.bing.com/th/id/OIP.wEkTLJI2fH9oeEY8SyHHZAAAAA?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
     "points": [
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "category": "student",
-    "month": "July",
+    "month": "May",
     "name": "Vikram Kumar",
     "photo": "https://imgroupofresearchers.com/wp-content/uploads/2023/05/MU.jpg",
     "points": [
@@ -76,7 +76,7 @@
   {
     "id": 7,
     "category": "projects",
-    "title": "Restaurant Management System",
+    "title": "Restaurant System",
     "tech": [
       "React",
       "Redux",
@@ -104,31 +104,6 @@
       "Express",
       "MySQL"
     ],
-    "image": "https://www.phpzag.com/wp-content/uploads/2022/06/library-management-system-php-min-1024x568.png"
-  },
-
-  {
-    "id": 10,
-    "category": "hackathon",
-    "title": "AI Healthcare Assistant",
-    "event": "National Hackathon",
-    "status": "Winner",
-    "certificate": "https://cdn1.designhill.com/uploads/personal_designs/ab0873a38381dd139895baa3e672e0c0-74523d50e75c837746758b690b6557b316241611768264.png?ver=2.12.78"
-  },
-  {
-    "id": 11,
-    "category": "hackathon",
-    "title": "Smart Traffic Management",
-    "event": "Smart India Hackathon",
-    "status": "Runner-Up",
-    "certificate": "https://cdn1.designhill.com/uploads/personal_designs/ab0873a38381dd139895baa3e672e0c0-74523d50e75c837746758b690b6557b316241611768264.png?ver=2.12.78"
-  },
-  {
-    "id": 12,
-    "category": "hackathon",
-    "title": "Agriculture Drone Monitoring",
-    "event": "TechFest Innovation Challenge",
-    "status": "Finalist",
-    "certificate": "https://cdn1.designhill.com/uploads/personal_designs/ab0873a38381dd139895baa3e672e0c0-74523d50e75c837746758b690b6557b316241611768264.png?ver=2.12.78"
+    "image": "https://repository-images.githubusercontent.com/255312830/6fd9f680-7f2e-11ea-9958-b136d04d9ccc"
   }
 ]

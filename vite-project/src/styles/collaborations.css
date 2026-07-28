@@ -279,23 +279,29 @@
 }
 
 .college-card-body{
-
+    display:flex;
+    flex-direction: column;
     padding:22px;
 }
 
 .college-card-body h3{
-
     color:#222;
     margin-bottom:8px;
     font-size:21px;
+    height: 90px;
+    overflow:hidden;
+    display: flex;
+    align-items:center;
 }
 
 .college-type{
-
-    display:inline-block;
+    display:inline-flex;
+    align-items:center;
+    justify-content: center;
+    height:34px;
     background:#fff1ec;
     color:#ff7700;
-    padding:6px 14px;
+    padding:0px 14px;
     border-radius:30px;
     font-size:13px;
     font-weight:600;
@@ -303,21 +309,27 @@
 }
 
 .college-description{
-
+    height: 80px;
     color:#666;
-    line-height:1.7;
+    line-height:1.6;
     margin-bottom:15px;
+    overflow: hidden;
 }
 
 .college-location{
-
+    height:22px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
     color:#444;
     margin-bottom:18px;
     font-size:14px;
 }
 
 .program-title{
-
+    height:24px;
+    display:flex;
+    align-items: center;
     font-weight:600;
     margin-bottom:12px;
     color:#222;
