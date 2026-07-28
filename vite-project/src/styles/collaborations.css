@@ -98,9 +98,10 @@
     color:#555;
     line-height:1.8;
     font-size:17px;
-    margin-bottom:30px;
-    width:1000px;
-    padding-left:100px;
+    margin:0 auto 30px;
+    max-width: 1200px;
+    padding:0;
+    width:100%;
 }
 
 .collab-hero-buttons{
@@ -238,7 +239,7 @@
     }
 
     to{
-        transform:translateX(-50%);
+        transform:translateX(calc(-50% - 12.5px));
     }
 
 }
@@ -279,23 +280,29 @@
 }
 
 .college-card-body{
-
+    display:flex;
+    flex-direction: column;
     padding:22px;
 }
 
 .college-card-body h3{
-
     color:#222;
     margin-bottom:8px;
     font-size:21px;
+    height: 90px;
+    overflow:hidden;
+    display: flex;
+    align-items:center;
 }
 
 .college-type{
-
-    display:inline-block;
+    display:inline-flex;
+    align-items:center;
+    justify-content: center;
+    height:34px;
     background:#fff1ec;
     color:#ff7700;
-    padding:6px 14px;
+    padding:0px 14px;
     border-radius:30px;
     font-size:13px;
     font-weight:600;
@@ -303,21 +310,27 @@
 }
 
 .college-description{
-
+    height: 80px;
     color:#666;
-    line-height:1.7;
+    line-height:1.6;
     margin-bottom:15px;
+    overflow: hidden;
 }
 
 .college-location{
-
+    height:22px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
     color:#444;
     margin-bottom:18px;
     font-size:14px;
 }
 
 .program-title{
-
+    height:24px;
+    display:flex;
+    align-items: center;
     font-weight:600;
     margin-bottom:12px;
     color:#222;
@@ -519,13 +532,12 @@
 =========================================*/
 
 .collab-cta{
-    padding:80px 0;
+    padding:40px 0;
 }
 
 .cta-box{
     background:#ff7700;
     color:#fff;
-    border-radius: 10px;
     padding:55px 35px;
     text-align:center;
     box-shadow:0 15px 35px rgba(255,107,53,.25);
@@ -533,7 +545,6 @@
 
 .cta-box h2{
     font-size:38px;
-    margin-bottom:18px;
 }
 
 .cta-box p{

@@ -2,21 +2,10 @@ import { useState } from "react";
 import "../styles/successstories.css";
 import data from "../pages/data/SuccessStoriesdata.json";
 
-import {
-  FaBriefcase,
-  FaUserGraduate,
-  FaLaptopCode,
-  FaAward,
-  FaUsers,
-  FaBuilding,
-  FaChartLine,
-  FaMedal
-} from "react-icons/fa";
+import { FaBriefcase, FaUserGraduate, FaLaptopCode, FaAward, FaUsers, FaBuilding, FaChartLine, FaMedal } from "react-icons/fa";
 
 function SuccessStories() {
-
   const [activeCategory, setActiveCategory] = useState("placements");
-
   const categories = [
     {
       id: "placements",
@@ -26,7 +15,7 @@ function SuccessStories() {
     {
       id: "student",
       icon: <FaUserGraduate />,
-      title: "Student of the Month",
+      title: "Star Performer of the Month",
     },
     {
       id: "projects",
@@ -36,161 +25,64 @@ function SuccessStories() {
     
   ];
 
-  const filteredData = data.filter(
-    (item) => item.category === activeCategory
-  );
+  const filteredData = data.filter((item) => item.category === activeCategory);
 
   return (
     <section className="success-stories">
-
-      {/* ================= Header ================= */}
-
       <div className="success-header">
-
         <span className="heading-line"></span>
-
         <h1>Success Stories</h1>
-
-        <p>
-          Celebrating the achievements of our students in placements,
-          innovation, leadership and competitions.
-        </p>
-
+        <p>Celebrating the achievements of our students in placements, innovation, leadership and competitions. </p>
       </div>
-
-      {/* ================= Tabs ================= */}
-
       <div className="success-tabs">
-
         {categories.map((category) => (
-
           <button
             key={category.id}
-            className={`tab-btn ${
-              activeCategory === category.id ? "active" : ""
-            }`}
+            className={`tab-btn ${activeCategory === category.id ? "active" : ""}`}
             onClick={() => setActiveCategory(category.id)}
           >
-
-            <span className="tab-icon">
-
-              {category.icon}
-
-            </span>
-
-            {category.title}
-
+            <span className="tab-icon"> {category.icon} </span> {category.title}
           </button>
-
         ))}
-
       </div>
 
-      {/* ===================================================
-                     HIGHEST PLACEMENTS
-      =================================================== */}
-
       {activeCategory === "placements" && (
-
         <section className="placement-section">
-
           <div className="section-title">
-
             <h2>Highest Placements</h2>
-
-            <button>
-
-              View All →
-
-            </button>
-
+            <button> View All → </button>
           </div>
-
           <div className="placement-podium">
-
             {filteredData
               .sort((a, b) => a.rank - b.rank)
               .map((story) => {
-
                 const medalColor =
                   story.rank === 1
                     ? "#d4af37"
                     : story.rank === 2
-                    ? "#c0c0c0"
-                    : "#cd7f32";
-
+                      ? "#c0c0c0"
+                      : "#cd7f32";
                 return (
-
-                  <div
-                    key={story.id}
-                    className={`podium-card rank${story.rank}`}
-                  >
-
+                  <div key={story.id} className={`podium-card rank${story.rank}`}>
                     <div
                       className="medal-circle"
                       style={{
                         background: medalColor,
                       }}
-                    >
-
-                      <FaMedal />
-
-                      <span>
-
-                        {story.rank}
-
-                      </span>
-
+                    > <FaMedal /> <span> {story.rank} </span>
                     </div>
+                    <img src={story.photo} alt={story.name} className="student-photo" />
 
-                    <img
-                      src={story.photo}
-                      alt={story.name}
-                      className="student-photo"
-                    />
-
-                    <h3>
-
-                      {story.name}
-
-                    </h3>
-
-                    <p>
-
-                      {story.designation}
-
-                    </p>
-
-                    <img
-                      src={story.companyLogo}
-                      alt={story.company}
-                      className="company-logo"
-                    />
-
-                    <h2>
-
-                      {story.package}
-
-                    </h2>
-
-                    <a href="#">
-
-                      View Journey →
-
-                    </a>
-
-                    <div className="podium-base"></div>
-
+                    <h3> {story.name} </h3>
+                    <p> {story.designation} </p>
+                    <img src={story.companyLogo} alt={story.company} className="company-logo" />
+                    <h2> {story.package} </h2>
+                    <a href="#"> View Journey → </a>
                   </div>
-
                 );
-
               })}
-
           </div>
-
         </section>
-
       )}
       {/* ===================================================
                     STUDENT OF THE MONTH

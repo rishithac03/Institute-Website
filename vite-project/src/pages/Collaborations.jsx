@@ -194,8 +194,8 @@ function Collaborations() {
           <div className="college-slider">
             <div className="college-track">
 
-            {colleges.map((college) => (              
-              <div className="college-card" key={college.id}>
+            {[...colleges, ...colleges].map((college,index) => (              
+              <div className="college-card" key={`${college.id}-${index}`} college={college}>
 
                 <div className="college-card-top">
 

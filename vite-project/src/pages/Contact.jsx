@@ -81,7 +81,7 @@ const Contact = () => {
 
             <iframe
               title="location"
-              src ="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.160836560947!2d78.39084637494902!3d17.452014383446258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb913f3a19491f%3A0xbc2b8e1b91eea878!2sTechNex%20Cloud%20Networks%20pvt%20ltd%20(TCN)!5e0!3m2!1sen!2sin!4v1784895434062!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.160836560947!2d78.39084637494902!3d17.452014383446258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb913f3a19491f%3A0xbc2b8e1b91eea878!2sTechNex%20Cloud%20Networks%20pvt%20ltd%20(TCN)!5e0!3m2!1sen!2sin!4v1784895434062!5m2!1sen!2sin"
               loading="lazy"
               allowFullScreen=""
               referrerPolicy="no-referrer-when-downgrade"
@@ -221,149 +221,70 @@ const Contact = () => {
       </div>
       {/* ================= Why Reach Out ================= */}
 
-<section className="contact-why-section">
+      <section className="contact-why-section">
 
-  <div className="contact-why-header">
-    <p className="contact-why-tag">WHY REACH OUT TO US?</p>
+        <div className="contact-why-header">
+          <p className="contact-why-tag">WHY REACH OUT TO US?</p>
 
-    <h2>
-      We're Here to Help You at <span>Every Step</span>
-    </h2>
+          <h2>
+            We're Here to Help You at <span>Every Step</span>
+          </h2>
 
-    <p>
-      Whether you're exploring courses, seeking admission guidance, or
-      looking for placement support, our team is ready to answer your
-      questions and help you make the right decision.
-    </p>
-  </div>
+          <p>
+            Whether you're exploring courses, seeking admission guidance, or
+            looking for placement support, our team is ready to answer your
+            questions and help you make the right decision.
+          </p>
+        </div>
 
-  <div className="contact-why-grid">
+        <div className="contact-why-grid">
 
-    <div className="contact-why-card">
-      <div className="contact-why-icon">🎓</div>
+          <div className="contact-why-card">
+            <div className="contact-why-icon">🎓</div>
 
-      <h3>Admission Guidance</h3>
+            <h3>Admission Guidance</h3>
 
-      <p>
-        Get complete information about eligibility, admissions,
-        scholarships, and the application process.
-      </p>
-    </div>
-
-    <div className="contact-why-card">
-      <div className="contact-why-icon">📚</div>
-
-      <h3>Course Counselling</h3>
-
-      <p>
-        Not sure which course suits you? Our experts help you choose
-        the right career path based on your interests.
-      </p>
-    </div>
-
-    <div className="contact-why-card">
-      <div className="contact-why-icon">💼</div>
-
-      <h3>Placement Assistance</h3>
-
-      <p>
-        Learn about internships, placement training, and career
-        opportunities offered by our institute.
-      </p>
-    </div>
-
-    <div className="contact-why-card">
-      <div className="contact-why-icon">🤝</div>
-
-      <h3>Quick Support</h3>
-
-      <p>
-        Our support team responds promptly through phone, email, and
-        WhatsApp to resolve your queries.
-      </p>
-    </div>
-
-  </div>
-
-</section>
-      <section className="assistance-section">
-        <div className="assistance-content">
-          <div className="assistance-heading">
-            <h2>Need Immediate <span>Assistance?</span></h2>
-            <p>We're just a call or message away. Reach out through any of the options below.</p>
+            <p>
+              Get complete information about eligibility, admissions,
+              scholarships, and the application process.
+            </p>
           </div>
-          <div className="assistance-cards">
-            <a href="tel:+919876543210" className="assist-card">
-              <div className="assist-icon">
-                <FaPhoneAlt />
-              </div>
-              <div>
-                <h4>Call Us</h4>
-                <p>+91 98765 43210</p>
-              </div>
-            </a>
-            <a
-              href="https://wa.me/919876543210"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="assist-card"
-            >
-              <div className="assist-icon">
-                <FaWhatsapp />
-              </div>
 
-              <div>
-                <h4>WhatsApp</h4>
-                <p>Chat with our team</p>
-              </div>
-            </a>
+          <div className="contact-why-card">
+            <div className="contact-why-icon">📚</div>
 
-            <a
-              href="mailto:info@offerera.com"
-              className="assist-card"
-            >
-              <div className="assist-icon">
-                <FaEnvelope />
-              </div>
+            <h3>Course Counselling</h3>
 
-              <div>
-                <h4>Email Us</h4>
-                <p>info@offerera.com</p>
-              </div>
-            </a>
+            <p>
+              Not sure which course suits you? Our experts help you choose
+              the right career path based on your interests.
+            </p>
+          </div>
 
-            <div className="assist-card social-card">
+          <div className="contact-why-card">
+            <div className="contact-why-icon">💼</div>
 
-              <div>
-                <h4>Follow Us</h4>
+            <h3>Placement Assistance</h3>
 
-                <div className="social-icons">
+            <p>
+              Learn about internships, placement training, and career
+              opportunities offered by our institute.
+            </p>
+          </div>
 
-                  <a href="#">
-                    <FaFacebookF />
-                  </a>
+          <div className="contact-why-card">
+            <div className="contact-why-icon">🤝</div>
 
-                  <a href="#">
-                    <FaInstagram />
-                  </a>
+            <h3>Quick Support</h3>
 
-                  <a href="#">
-                    <FaLinkedinIn />
-                  </a>
-
-                  <a href="#">
-                    <FaYoutube />
-                  </a>
-
-                </div>
-
-              </div>
-
-            </div>
-
+            <p>
+              Our support team responds promptly through phone, email, and
+              WhatsApp to resolve your queries.
+            </p>
           </div>
 
         </div>
+
       </section>
     </section>
 
