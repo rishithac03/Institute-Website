@@ -17,6 +17,7 @@ import CourseDetails from './pages/CourseDetails';
 import Footer from './Footer';
 import WhatsApp from './pages/Whatsapp';
 import DemoPage from './pages/Demo';
+import SuccessStories from './pages/SuccesStories';
 function App() {
   return (
     <>
@@ -36,6 +37,7 @@ function App() {
         <Route path="/resources" element={<Resources />} />
         <Route path="/course/:id" element={<CourseDetails />} />
         <Route path="/demopage" element={<DemoPage/>} />
+        <Route path="/successstories" element={<SuccessStories/>}/>
 
       </Routes>
       <div style={{marginTop:"0px"}}>
