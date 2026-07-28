@@ -18,6 +18,7 @@ import Footer from './Footer';
 import WhatsApp from './pages/Whatsapp';
 import DemoPage from './pages/Demo';
 import SuccessStories from './pages/SuccesStories';
+import Certificate from './pages/Certificate';
 function App() {
   return (
     <>
@@ -29,7 +30,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/collaborations" element={<Collaborations />} />
-        <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/certificate" element={<Certificate/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Register />} />
         <Route path="/careers" element={<Careers />} />

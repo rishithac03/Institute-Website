@@ -70,6 +70,10 @@ function Navbar() {
                         <NavLink to="/contact"> Contact </NavLink>
                         <NavLink to="/register" className="register-btn"> Register </NavLink>
                     </nav>
+                    <NavLink to="/certificate"> Certificate Generation </NavLink>
+                    <NavLink to="/contact"> Contact </NavLink>
+                    <NavLink to="/register" className="register-btn"> Register </NavLink>
+                </nav>
 
                     <div className="menu-container">
                         <button className="menu-btn" onClick={() => {
@@ -106,6 +110,35 @@ function Navbar() {
                             </>
                         )}
                     </div>
+                            }}>
+                        {(authMenu || mobileMenu) ? <X size={28} /> : <Menu size={28} />}
+                    </button>
+                    {authMenu && (
+                        <div className="auth-dropdown" >
+                            <NavLink to="/careers"> Career Opportunities </NavLink>
+                            <NavLink to="/jobs"> Job Predictions </NavLink>
+                            <NavLink to="/resources"> Resources </NavLink>
+                            <NavLink to="/certificate"> Certificate Generation </NavLink>
+
+                        </div>
+                    )}
+                    {mobileMenu && (
+                        <>
+                        <div className="overlay" onClick={() => setMobileMenu(false)}></div>
+                        <div className="mobile-drawer">
+                            <NavLink to="/">Home</NavLink>
+                            <NavLink to="/about">About</NavLink>
+                            <NavLink to="/courses">Courses</NavLink>
+                            <NavLink to="/collaborations"> Collaborations </NavLink>
+                            <NavLink to="/certificate"> Certificate Generation</NavLink>
+                            <NavLink to="/contact"> Contact </NavLink>
+                            <NavLink to="/careers"> Career Opportunities </NavLink>
+                            <NavLink to="/jobs"> Jobs </NavLink>
+                            <NavLink to="/resources"> Resources </NavLink>
+                            <NavLink to="/register"> Register </NavLink>
+                        </div>
+                        </>
+                    )}
                 </div>
 
             </header>
