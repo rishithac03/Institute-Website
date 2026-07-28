@@ -7,18 +7,17 @@ import {
   FaPhone,
   FaEnvelope,
   FaMapMarkerAlt,
+  FaTwitter,
 } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="footer">
-
       <div className="footer-container">
 
         {/* Company */}
         <div className="footer-section">
           <h2 className="logo">OfferEra</h2>
-
           <p>
             Your trusted learning platform providing industry-ready
             courses with expert mentors and placement support.
@@ -27,7 +26,7 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div className="footer-section">
-          <h3>Quick Links</h3>
+          <h3 style={{textDecoration:"underline"}}>Quick Links</h3>
 
           <ul>
             <li><a href="/">Home</a></li>
@@ -39,7 +38,7 @@ const Footer = () => {
 
         {/* Contact */}
         <div className="footer-section">
-          <h3>Contact Us</h3>
+          <h3 style={{textDecoration:"underline"}} >Contact Us</h3>
 
           <p>
             <FaPhone className="icon" />
@@ -59,10 +58,13 @@ const Footer = () => {
 
         {/* Social */}
         <div className="footer-section">
-          <h3>Follow Us</h3>
+          <h3 style={{textDecoration:"underline"}}>Follow Us</h3>
 
           <div className="social-icons">
-
+            
+<a href="#">
+              <FaTwitter/>
+            </a>
             <a href="#">
               <FaLinkedin />
             </a>
