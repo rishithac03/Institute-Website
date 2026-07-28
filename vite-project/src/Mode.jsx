@@ -47,11 +47,7 @@ const CourseModes = () => {
         <h2
           style={{
             color:"#1e293b",
-<<<<<<< HEAD
-            fontSize:"32px",
-=======
-            fontSize:"45px"
->>>>>>> Certificate
+            fontSize:"45px",
           }}
         >
           Choose Learning Mode
