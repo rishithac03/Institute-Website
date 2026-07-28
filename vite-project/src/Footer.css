@@ -24,7 +24,11 @@
     content:"";
     width:45px;
     height:3px;
+<<<<<<< HEAD
    
+=======
+    /* background:#ff7b00; */
+>>>>>>> d12f082461f94b17a28a3a889f2a47b1ebba917d
     position:absolute;
     left:0;
     bottom:-8px;
@@ -73,6 +77,7 @@
 .social-icons{
     display:flex;
     gap:18px;
+    margin-left:-50px;
     margin-top:15px;
 }
 

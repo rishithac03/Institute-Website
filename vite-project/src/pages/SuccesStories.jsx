@@ -22,6 +22,7 @@ function SuccessStories() {
       icon: <FaLaptopCode />,
       title: "Best Projects",
     },
+    
   ];
 
   const filteredData = data.filter((item) => item.category === activeCategory);
@@ -238,6 +239,8 @@ function SuccessStories() {
         </section>
 
       )}
+
+      
 
     </section>
 

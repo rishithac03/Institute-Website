@@ -1,3 +1,4 @@
+/* /*=========================================
 /* =========================================
 SUCCESS STORIES
 =========================================*/
@@ -674,4 +675,22 @@ padding:18px;
 .success-stories .project-content h3{
 font-size:20px;
 }
+
+.success-stories .timeline-card{
+padding:18px;
+}
+
+.success-stories .timeline-card h3{
+font-size:20px;
+}
+
+.success-stories .timeline-card p{
+font-size:14px;
+}
+
+.success-stories .certificate{
+height:180px;
+}
+
+} 
 }
