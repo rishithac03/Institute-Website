@@ -77,6 +77,7 @@ function Navbar() {
                                 <NavLink to="/jobs"> Job Predictions </NavLink>
                                 <NavLink to="/resources"> Resources </NavLink>
                                 <NavLink to="/certificate"> Certificate Generation </NavLink>
+                                <NavLink to="/careerevent"> Career Event Calendar </NavLink>
                             </div>
                         )}
                         {mobileMenu && (

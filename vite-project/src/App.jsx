@@ -19,6 +19,7 @@ import DemoPage from './pages/Demo';
 import SuccessStories from './pages/SuccesStories';
 import Certificate from './pages/Certificate';
 import SuccessDetails from "./pages/SuccessDetails";
+import CareerEvent from "./CareerEvent";
 function App() {
   return (
     <>
@@ -40,7 +41,8 @@ function App() {
         <Route path="/demopage" element={<DemoPage/>} />
         <Route path="/successstories" element={<SuccessStories/>}/>
         <Route path="/successstories/:category" element={<SuccessDetails/>}/>
-        
+        <Route path="/careerevent" element={<CareerEvent/>}/>
+                
       </Routes>
       <div style={{marginTop:"0px"}}>
         <Footer/>
