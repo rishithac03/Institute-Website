@@ -94,6 +94,7 @@ function Navbar() {
                                     <NavLink to="/jobs"> Jobs Predictions </NavLink>
                                     <NavLink to="/resources"> Resources </NavLink>
                                     <NavLink to="/certificate"> Certificate Generation </NavLink>
+                                    <NavLink to="/careerevent"> Career Event Calendar </NavLink>
                                     <NavLink to="/register"> Register </NavLink>
                                 </div>
                             </>

@@ -194,20 +194,44 @@ a {
     position: fixed;
     top: 0;
     right: 0;
-    width: 280px;
-    height: 100%;
+    width: 300px;
+    height: 100vh;
     background: white;
-    padding: 30px;
+    padding: 30px 30px 30px 30px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 4px;
+    box-shadow:-12px 0 35px rgba(0,0,0, .15);
+    border-radius: 20px 0 0 20px;
     z-index:9999;
+}
+
+.mobile-drawer a{
+    text-decoration:none;
+    color:#333;
+    font-size:16px;
+    font-weight:500;
+    padding:14px 18px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.mobile-drawer a:hover{
+    background:#fff4ed;
+    color:#ff7700;
+    transform:translateX(4px);
+}
+
+.mobile-drawer a.active{
+    background:#ff7700;
+    color:#fff;
 }
 
 .overlay {
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, .35);
+    background: rgba(0, 0, 0, .45);
+    backdrop-filter: blur(3px);
     z-index: 9998;
 }
 .ticker {
