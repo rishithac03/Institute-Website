@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home";
-// import Courses from "./Courses";
 import Enrollnow from "./Enrollnow";
 import Navbar from './components/Navbar/Navbar'
 import About from './pages/About'
@@ -19,6 +18,7 @@ import WhatsApp from './pages/Whatsapp';
 import DemoPage from './pages/Demo';
 import SuccessStories from './pages/SuccesStories';
 import Certificate from './pages/Certificate';
+import SuccessDetails from "./pages/SuccessDetails";
 function App() {
   return (
     <>
@@ -39,7 +39,8 @@ function App() {
         <Route path="/course/:id" element={<CourseDetails />} />
         <Route path="/demopage" element={<DemoPage/>} />
         <Route path="/successstories" element={<SuccessStories/>}/>
-
+        <Route path="/successstories/:category" element={<SuccessDetails/>}/>
+        
       </Routes>
       <div style={{marginTop:"0px"}}>
         <Footer/>

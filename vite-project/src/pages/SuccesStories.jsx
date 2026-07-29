@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../styles/successstories.css";
 import data from "../pages/data/SuccessStoriesdata.json";
+import { NavLink } from "react-router-dom";
 
 import { FaBriefcase, FaUserGraduate, FaLaptopCode, FaAward, FaUsers, FaBuilding, FaChartLine, FaMedal } from "react-icons/fa";
 
@@ -22,7 +23,7 @@ function SuccessStories() {
       icon: <FaLaptopCode />,
       title: "Best Projects",
     },
-    
+
   ];
 
   const filteredData = data.filter((item) => item.category === activeCategory);
@@ -50,7 +51,7 @@ function SuccessStories() {
         <section className="placement-section">
           <div className="section-title">
             <h2>Highest Placements</h2>
-            <button> View All → </button>
+            <NavLink to="/successstories/placements" className="view-all-btn"> View All → </NavLink>
           </div>
           <div className="placement-podium">
             {filteredData
@@ -96,11 +97,7 @@ function SuccessStories() {
 
             <h2>Student of the Month</h2>
 
-            <button>
-
-              View All →
-
-            </button>
+            <NavLink to="/successstories/students" className="view-all-btn"> View All → </NavLink>
 
           </div>
 
@@ -168,30 +165,17 @@ function SuccessStories() {
       =================================================== */}
 
       {activeCategory === "projects" && (
-
         <section className="project-section">
-
           <div className="section-title">
-
-            <h2>Best Projects</h2>
-
-            <button>
-
-              View All →
-
-            </button>
-
+            <h2> Best Projects </h2>
+            <NavLink to="/successstories/projects" className="view-all-btn" > View All → </NavLink>
           </div>
-
           <div className="project-grid">
-
             {filteredData.map((story) => (
-
               <div
                 key={story.id}
                 className="project-card"
               >
-
                 <img
                   src={story.image}
                   alt={story.title}
@@ -222,7 +206,7 @@ function SuccessStories() {
 
                   </div>
 
-                  <a href="#">
+                  <a href="https://github.com/rishithac03">
 
                     View Project →
 
@@ -240,7 +224,7 @@ function SuccessStories() {
 
       )}
 
-      
+
 
     </section>
 

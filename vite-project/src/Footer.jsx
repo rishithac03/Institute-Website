@@ -38,11 +38,7 @@ const Footer = () => {
 
         {/* Contact */}
         <div className="footer-section">
-<<<<<<< HEAD
           <h3 style={{textDecoration:"underline"}} >Contact Us</h3>
-=======
-          <h3 style={{textDecoration:"underline"}}>Contact Us</h3>
->>>>>>> d12f082461f94b17a28a3a889f2a47b1ebba917d
 
           <p>
             <FaPhone className="icon" />

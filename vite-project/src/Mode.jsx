@@ -71,17 +71,10 @@ const CourseModes = () => {
       =========================== */}
       <div
         style={{
-<<<<<<< HEAD
           display:"grid",
           gridTemplateColumns:"repeat(auto-fit,minmax(280px,480px))",
           justifyContent:"center",
-          gap:"25px"
-=======
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit,minmax(280px,480px))",
-          justifyContent: "center", // Keeps cards centered
-          gap: "25px",
->>>>>>> d12f082461f94b17a28a3a889f2a47b1ebba917d
+          gap:"25px",
         }}
       >
         {courses.map((course) => (
