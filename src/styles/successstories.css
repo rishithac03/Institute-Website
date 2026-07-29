@@ -1,0 +1,695 @@
+/* /*=========================================
+/* =========================================
+SUCCESS STORIES
+=========================================*/
+
+.success-stories{
+    width:100%;
+    margin:0 auto;
+    margin-bottom: 40px;
+    font-family:"Poppins",sans-serif;
+    color:#222;
+    background:#fff;
+}
+
+/*=========================================
+HEADER
+=========================================*/
+
+.success-stories .success-header{
+    text-align:center;
+    padding-top:20px;
+    margin-bottom:30px;
+}
+
+.success-stories .heading-line{
+    width:70px;
+    height:4px;
+    background:#ff6600;
+    border-radius:20px;
+    margin:0 auto 14px;
+}
+
+.success-stories .success-header h1{
+    font-size:42px;
+    font-weight:700;
+    color:#222;
+    margin-bottom:12px;
+}
+
+.success-stories .success-header p{
+    margin:0 auto;
+    color:#6b7280;
+    font-size:16px;
+    line-height:1.7;
+}
+
+/*=========================================
+CATEGORY TABS
+=========================================*/
+
+.success-stories .success-tabs{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:26px;
+    margin-bottom:30px;
+}
+
+.success-stories .tab-btn{
+    background:none;
+    border:none;
+    padding:14px 0;
+    display:flex;
+    align-items:center;
+    gap:6px;
+    cursor:pointer;
+    color:#666;
+    font-size:15px;
+    font-weight:600;
+    position:relative;
+    transition:.3s;
+}
+
+.success-stories .tab-btn:hover{
+    color:#ff6600;
+}
+
+.success-stories .tab-btn.active{
+    color:#ff6600;
+}
+
+.success-stories .tab-btn::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-1px;
+    width:0;
+    height:3px;
+    background:#ff6600;
+    border-radius:20px;
+    transition:.3s;
+}
+
+.success-stories .tab-btn:hover::after,
+.success-stories .tab-btn.active::after{
+    width:100%;
+}
+
+.success-stories .tab-icon{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:17px;
+}
+
+/*=========================================
+SECTION TITLE
+=========================================*/
+
+.success-stories .section-title{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:10px;
+    margin-bottom:30px;
+}
+
+.success-stories .section-title h2{
+    font-size:30px;
+    line-height: 1.2;
+    margin:0;
+    color:#222;
+    font-weight:700;
+    text-align: center;
+}
+
+.success-stories .section-title button{
+    background:none;
+    border:none;
+    color:#ff6600;
+    font-size:14px;
+    margin-top:4px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+/*=========================================
+COMMON LINKS
+=========================================*/
+
+.success-stories a{
+    color:#ff6600;
+    text-decoration:none;
+    font-size:15px;
+    font-weight:600;
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+    transition:.3s;
+}
+
+.success-stories a:hover{
+    gap:8px;
+}
+
+/*=========================================
+COMMON IMAGES
+=========================================*/
+
+.success-stories img{
+    display:block;
+    width:100%;
+}
+
+.success-stories .student-photo{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+    border-radius:50%;
+    border:1px solid #f2f2f2;
+}
+
+.success-stories .company-logo{
+    width:90px;
+    height:42px;
+    margin:12px auto;
+    object-fit:contain;
+}
+
+.success-stories .project-image{
+    width:100%;
+    display:block;
+    border-radius: 12px 12px 0 0;
+    object-fit:cover;
+}
+
+/*=========================================
+TABLET
+=========================================*/
+
+@media(max-width:992px){
+
+.success-stories .success-tabs{
+gap:20px;
+flex-wrap:wrap;
+}
+
+.success-stories .section-title h2{
+font-size:24px;
+}
+
+}
+
+/*=========================================
+MOBILE
+=========================================*/
+
+@media(max-width:768px){
+
+.success-stories{
+width:94%;
+margin:50px auto;
+}
+
+.success-stories .success-header{
+margin-bottom:40px;
+}
+
+.success-stories .success-header h1{
+font-size:34px;
+}
+
+.success-stories .success-header p{
+font-size:15px;
+}
+
+.success-stories .success-tabs{
+justify-content:flex-start;
+overflow-x:auto;
+flex-wrap:nowrap;
+padding-bottom:8px;
+}
+
+.success-stories .success-tabs::-webkit-scrollbar{
+display:none;
+}
+
+.success-stories .tab-btn{
+flex-shrink:0;
+font-size:14px;
+}
+
+.success-stories .section-title{
+flex-direction:column;
+align-items:flex-start;
+gap:10px;
+}
+
+}
+
+/*=========================================
+SMALL MOBILE
+=========================================*/
+
+@media(max-width:576px){
+
+.success-stories .success-header h1{
+font-size:30px;
+}
+
+.success-stories .heading-line{
+width:55px;
+}
+
+}
+
+/*==================================
+PLACEMENT SECTION
+==================================*/
+
+.success-stories .placement-section{
+    margin-top:10px;
+}
+
+.success-stories .placement-podium{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns:repeat(3,350px);
+    gap: 20px;
+}
+
+.success-stories .podium-card{
+    background:#fff;
+    border:1px solid #a9a7a7;
+    border-radius:18px;
+    padding:15px 12px;
+    text-align:center;
+    transition:.3s ease;
+}
+
+.success-stories .podium-card:hover{
+    border-color:#ff6600;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transform:translateY(-5px);
+}
+
+.success-stories .rank1{
+    order:2;
+    transform:translateY(-35px);
+}
+
+.success-stories .rank2{
+    order:1;
+}
+
+.success-stories .rank3{
+    order:3;
+}
+
+.success-stories .rank1:hover{
+    transform:translateY(-40px);
+}
+
+.success-stories .medal-circle{
+    width:58px;
+    height:58px;
+    border-radius:50%;
+    margin:0 auto 20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    font-size:20px;
+    position:relative;
+}
+
+.success-stories .medal-circle span{
+    position:absolute;
+    bottom:-8px;
+    width:24px;
+    height:24px;
+    border-radius:50%;
+    background:#fff;
+    color:#333;
+    font-size:12px;
+    font-weight:600;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.success-stories .podium-card .student-photo{
+    width:110px;
+    height:110px;
+    margin:18px auto;
+    border-radius:50%;
+    object-fit:contain;
+    border:2px solid #f3f3f3;
+}
+
+.success-stories .podium-card h3{
+    font-size:20px;
+    color:#222;
+    margin-bottom:8px;
+}
+
+.success-stories .podium-card p{
+    color:#666;
+    font-size:14px;
+    margin-bottom:16px;
+}
+
+.success-stories .podium-card .company-logo{
+    width:90px;
+    height:42px;
+    object-fit:contain;
+    margin:18px auto;
+}
+
+.success-stories .podium-card h2{
+    color:#ff6600;
+    font-size:28px;
+    margin:18px 0;
+}
+
+.success-stories .podium-card a{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:6px;
+    color:#ff6600;
+    font-size:15px;
+    font-weight:600;
+    text-decoration:none;
+}
+
+.success-stories .podium-card a:hover{
+    text-decoration:underline;
+}
+
+/*==================================
+STUDENT OF THE MONTH
+==================================*/
+
+.success-stories .student-section{
+    padding-left :70px; 
+    padding-right: 70px;
+    
+}
+
+.success-stories .student-highlight{
+    display:grid;
+    grid-template-columns:300px 1fr;
+    background:#fff;
+    gap:40px;
+    padding:20px;
+    border:1px solid #9c9a9a;
+    border-radius:18px;
+    overflow:hidden;
+}
+
+.success-stories .student-highlight:hover{
+    border-color:#ff6600;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.success-stories .student-left{
+    background:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.success-stories .student-photo-large{
+    width:250px;
+    height:300px;
+    margin-left: 17px;
+    border-radius: 18px;
+    border: 1px solid #ececec;
+    object-fit:cover;
+}
+
+.success-stories .student-right{
+    padding:10px;
+}
+
+.success-stories .student-badge{
+    display:inline-block;
+    background:#fff4ec;
+    color:#ff6600;
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:18px;
+}
+
+.success-stories .student-right h2{
+    font-size:32px;
+    color:#222;
+    margin-bottom:14px;
+}
+
+.success-stories .student-right>p{
+    color:#666;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.success-stories .achievement-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+}
+
+.success-stories .achievement-box{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    padding:18px;
+    border:1px solid #ececec;
+    border-radius:14px;
+    background:#fafafa;
+    transition:.3s;
+}
+
+.success-stories .achievement-box:hover{
+    border-color:#ff6600;
+    background:#fff8f3;
+}
+
+.success-stories .achievement-icon{
+    width:44px;
+    height:44px;
+    padding:10px;
+    border-radius:10px;
+    background:#ff6600;
+    color:#fff;
+    flex-shrink:0;
+}
+
+.success-stories .achievement-box span{
+    font-size:15px;
+    color:#444;
+    line-height:1.5;
+}
+
+/*==================================
+TABLET
+==================================*/
+
+@media(max-width:992px){
+
+.success-stories .placement-podium{
+grid-template-columns:1fr;
+}
+
+.success-stories .rank1,
+.success-stories .rank2,
+.success-stories .rank3{
+order:unset;
+transform:none;
+}
+
+.success-stories .rank1:hover{
+transform:translateY(-5px);
+}
+
+.success-stories .student-highlight{
+grid-template-columns:1fr;
+}
+
+.success-stories .student-left{
+padding:30px;
+}
+
+}
+
+/*==================================
+MOBILE
+==================================*/
+
+@media(max-width:768px){
+
+.success-stories .student-right{
+padding:28px;
+}
+
+.success-stories .achievement-grid{
+grid-template-columns:1fr;
+}
+
+.success-stories .student-photo-large{
+width:170px;
+height:170px;
+}
+
+.success-stories .podium-card{
+padding:24px 18px;
+}
+
+.success-stories .podium-card h2{
+font-size:24px;
+}
+
+}
+
+
+/*=========================================
+PROJECT SECTION
+=========================================*/
+
+.success-stories .project-section{
+    margin-top:20px;
+}
+
+.success-stories .project-grid{
+    display:grid;
+    grid-template-columns:repeat(3,400px);
+    justify-content: center;
+    align-items: start;
+    gap:25px;
+}
+
+.success-stories .project-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background:#fff;
+    border:1px solid #ececec;
+    border-radius:18px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.success-stories .project-card:hover{
+    border-color:#ff6600;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transform:translateY(-5px);
+}
+
+.success-stories .project-image{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.success-stories .project-content{
+    padding:22px;
+    display:flex;
+    flex-direction: column;
+}
+
+.success-stories .project-content h3{
+    font-size:22px;
+    color:#222;
+    margin-bottom:12px;
+}
+
+.success-stories .project-content p{
+    font-size:15px;
+    color:#666;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.success-stories .tech-stack{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.success-stories .tech-stack span{
+    padding:7px 14px;
+    border-radius:30px;
+    background:#fff3eb;
+    color:#ff6600;
+    font-size:13px;
+    font-weight:600;
+}
+
+.success-stories .project-content a{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    color:#ff6600;
+    font-weight:600;
+    text-decoration:none;
+    padding-top:10px;
+    margin-top:auto;
+}
+
+.success-stories .project-content a:hover{
+    gap:10px;
+}
+
+/*=========================================
+RESPONSIVE
+=========================================*/
+
+@media(max-width:992px){
+
+.success-stories .project-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:768px){
+
+.success-stories .project-grid{
+grid-template-columns:1fr;
+}
+
+}
+
+@media(max-width:576px){
+
+.success-stories .project-content{
+padding:18px;
+}
+
+.success-stories .project-content h3{
+font-size:20px;
+}
+
+.success-stories .timeline-card{
+padding:18px;
+}
+
+.success-stories .timeline-card h3{
+font-size:20px;
+}
+
+.success-stories .timeline-card p{
+font-size:14px;
+}
+
+.success-stories .certificate{
+height:180px;
+}
+
+} 

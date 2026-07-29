@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Infosys",
+    "role": "Hiring Partner",
+    "logo": "https://static.vecteezy.com/system/resources/previews/024/806/527/large_2x/infosys-logo-transparent-free-png.png"
+  },
+  {
+    "id": 2,
+    "name": "TCS",
+    "role": "Technology Partner",
+    "logo": "https://backend.quadient.com/files/default/2025-09/tcs_newlogo_final_cmyk_black.png"
+  },
+  {
+    "id": 3,
+    "name": "Wipro",
+    "role": "Hiring Partner",
+    "logo": "https://logos-world.net/wp-content/uploads/2023/01/Wipro-Logo.png"
+  },
+  {
+    "id": 4,
+    "name": "Accenture",
+    "role": "Industry Partner",
+    "logo": "https://tse1.mm.bing.net/th/id/OIP.f-T1CPg2kw4pc_cj268OvwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "id": 5,
+    "name": "Capgemini",
+    "role": "Technology Partner",
+    "logo": "https://download.logo.wine/logo/Capgemini/Capgemini-Logo.wine.png"
+  },
+  {
+    "id": 6,
+    "name": "Cognizant",
+    "role": "Hiring Partner",
+    "logo": "https://latestlogo.com/wp-content/uploads/2024/02/cognizant.png"
+  },
+  {
+    "id": 7,
+    "name": "HCL Technologies",
+    "role": "Training Partner",
+    "logo": "https://static.vecteezy.com/system/resources/previews/075/561/490/non_2x/hcl-tech-logo-transparent-background-free-png.png"
+  },
+  {
+    "id": 8,
+    "name": "Tech Mahindra",
+    "role": "Placement Partner",
+    "logo": "https://companieslogo.com/img/orig/TECHM.NS_BIG-281ab5b9.png?t=1721262930"
+  },
+  {
+    "id": 9,
+    "name": "IBM",
+    "role": "Technology Partner",
+    "logo": "https://1000logos.net/wp-content/uploads/2017/02/IBM-Logo-1967.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Microsoft",
+    "role": "Cloud Partner",
+    "logo": "https://static.vecteezy.com/system/resources/previews/024/983/639/non_2x/microsoft-logo-transparent-free-png.png"
+  }
+]

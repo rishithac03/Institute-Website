@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "company": "Infosys",
+    "role": "Frontend Developer",
+    "location": "Hyderabad",
+    "salary": "₹4 - ₹6 LPA",
+    "type": "Full Time",
+    "experience": "Freshers",
+    "skills": "React, JavaScript, HTML, CSS"
+  },
+  {
+    "id": 2,
+    "company": "TCS",
+    "role": "Python Developer",
+    "location": "Bengaluru",
+    "salary": "₹3.5 - ₹5 LPA",
+    "type": "Full Time",
+    "experience": "Freshers",
+    "skills": "Python, SQL"
+  },
+  {
+    "id": 3,
+    "company": "Accenture",
+    "role": "MERN Stack Developer",
+    "location": "Hyderabad",
+    "salary": "₹5 - ₹7 LPA",
+    "type": "Full Time",
+    "experience": "0-1 Years",
+    "skills": "MongoDB, Express, React, Node"
+  },
+  {
+    "id": 4,
+    "company": "Cognizant",
+    "role": "Java Full Stack Developer",
+    "location": "Chennai",
+    "salary": "₹4 - ₹6 LPA",
+    "type": "Full Time",
+    "experience": "Freshers",
+    "skills": "Java, Spring Boot, React"
+  },
+  {
+    "id": 5,
+    "company": "Capgemini",
+    "role": "Software Engineer Intern",
+    "location": "Pune",
+    "salary": "₹25,000 / Month",
+    "type": "Internship",
+    "experience": "Students",
+    "skills": "Java, Python"
+  },
+  {
+    "id": 6,
+    "company": "Deloitte",
+    "role": "AI/ML Engineer",
+    "location": "Hyderabad",
+    "salary": "₹6 - ₹9 LPA",
+    "type": "Full Time",
+    "experience": "0-2 Years",
+    "skills": "Python, Machine Learning"
+  },
+  {
+    "id": 7,
+    "company": "HCLTech",
+    "role": "QA Automation Tester",
+    "location": "Noida",
+    "salary": "₹3.5 - ₹5 LPA",
+    "type": "Full Time",
+    "experience": "Freshers",
+    "skills": "Selenium, Java"
+  },
+  {
+    "id": 8,
+    "company": "IBM",
+    "role": "Cloud Engineer",
+    "location": "Bengaluru",
+    "salary": "₹5 - ₹8 LPA",
+    "type": "Remote",
+    "experience": "0-2 Years",
+    "skills": "AWS, Docker, Kubernetes"
+  }
+]

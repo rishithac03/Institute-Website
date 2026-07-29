@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": " CBIT college of Engineering",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Providing industry-oriented engineering education with modern laboratories and research facilities.",
+    "logo": "https://www.cbit.ac.in/wp-content/uploads/2023/09/CBIT-LOGO.png",
+    "programs": ["Full Stack", "Python", "AI & ML", "Data Science"]
+  },
+  {
+    "id": 2,
+    "name": "Sridevi Women's Engineering College",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Focused on empowering women through quality technical education and industry collaboration.",
+    "logo": "https://tse1.mm.bing.net/th/id/OIP.59j0eTfsVqhgF6fFyluT_gAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "programs": ["Java Full Stack", "Python", "Cloud Computing", "Cyber Security"]
+  },
+  {
+    "id": 3,
+    "name": "Malla Reddy Engineering College",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Offering innovative engineering programs with strong placement support and research opportunities.",
+    "logo": "/src/assets/college.png",
+    "programs": ["MERN Stack", "AI & ML", "Data Analytics", "IoT"]
+  },
+  {
+    "id": 4,
+    "name": "CMR Institute of Technology",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Known for academic excellence, innovation, and industry-focused skill development.",
+    "logo": "https://images.careerindia.com/college-photos/4450/logo1_1605879898.png",
+    "programs": ["React", "Node.js", "Python", "Machine Learning"]
+  },
+  {
+    "id": 5,
+    "name": "VNR Vignana Jyothi Institute of Engineering and Technology",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Committed to producing industry-ready graduates through practical learning and research.",
+    "logo": "https://d2lk14jtvqry1q.cloudfront.net/media/large_113_6cea46ef34_37cbc28839.png",
+    "programs": ["Java", "AWS", "DevOps", "Data Science"]
+  },
+  {
+    "id": 6,
+    "name": "Institute of Aeronautical Engineering",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Providing high-quality technical education with excellent industry partnerships.",
+    "logo": "https://d2lk14jtvqry1q.cloudfront.net/media/large_218_7eaf73f573_e562060150.png",
+    "programs": ["Python", "Full Stack", "AI", "Cloud Computing"]
+  },
+  {
+    "id": 7,
+    "name": "Anurag University",
+    "type": "Private University",
+    "location": "Hyderabad",
+    "description": "A multidisciplinary university offering industry-driven education and innovation programs.",
+    "logo": "https://images.shiksha.com/mediadata/images/1746072408phpSBkXfb.jpeg",
+    "programs": ["MERN Stack", "Cyber Security", "AI & ML", "Data Analytics"]
+  },
+  {
+    "id": 8,
+    "name": "MLR Institute of Technology",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Providing advanced technical education with a focus on innovation and employability.",
+    "logo": "https://th.bing.com/th/id/R.822f90ba97dc9a3debc06eb7c2e63003?rik=7WFu2fbbkgKdZA&riu=http%3a%2f%2fwww.mlrit.ac.in%2fwp-content%2fuploads%2f2022%2f05%2flogo_V4.jpg&ehk=uCt%2bRSgdkWa1AauNXduXMGOmZC3ToIWrdNDHOqcL2BI%3d&risl=&pid=ImgRaw&r=0",
+    "programs": ["Java Full Stack", "Python", "DevOps", "Cloud Computing"]
+  },
+  {
+    "id": 9,
+    "name": "Guru Nanak Institutions Technical Campus",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Offering quality engineering education with strong industry collaboration and placements.",
+    "logo": "https://gncmkt.ac.in/wp-content/uploads/2021/09/gncmkt.ac_.in-logo-website.png",
+    "programs": ["AI & ML", "Data Science", "React", "Java"]
+  },
+  {
+    "id": 10,
+    "name": "CVR College of Engineering",
+    "type": "Autonomous",
+    "location": "Hyderabad",
+    "description": "Recognized for academic excellence, innovation, and successful placement programs.",
+    "logo": "https://d2lk14jtvqry1q.cloudfront.net/media/large_170_a3c5df778c_333c63e660.png",
+    "programs": ["Python", "Machine Learning", "AWS", "MERN Stack"]
+  }
+]

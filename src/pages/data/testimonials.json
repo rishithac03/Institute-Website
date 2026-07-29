@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Amit Kumar",
+    "role": "Full Stack Developer",
+    "review": "This institute gave me the skills and confidence to build my career.",
+    "title": "Best Institute",
+    "rating": 5,
+    "image": "/src/assets/user.png"
+  },
+  {
+    "name": "Sneha Reddy",
+    "role": "Software Engineer",
+    "review": "I got placed at Infosys as a Software Engineer. Thank you for the amazing training and support!",
+    "title": "Got Placed at Infosys",
+    "rating": 5,
+    "image": "/src/assets/user.png"
+  },
+  {
+    "name": "Karan Malhotra",
+    "role": "Frontend Developer",
+    "review": "Hands-on projects and mentorship helped me a lot in interviews. Highly recommended!",
+    "title": "Great Learning",
+    "rating": 5,
+    "image": "/src/assets/user.png"
+  },
+  {
+    "name": "Priya Sharma",
+    "role": "Java Developer",
+    "review": "The trainers explained every concept clearly. Mock interviews boosted my confidence before placements.",
+    "title": "Excellent Mentorship",
+    "rating": 5,
+    "image": "/src/assets/user.png"
+  },
+  {
+    "name": "Rahul Verma",
+    "role": "UI/UX Designer",
+    "review": "The practical assignments and live projects helped me build an impressive portfolio.",
+    "title": "Practical Learning",
+    "rating": 5,
+    "image": "/src/assets/user.png"
+  },
+  {
+    "name": "Ananya Das",
+    "role": "Python Developer",
+    "review": "I improved my coding skills significantly and secured a job within two months of completing the course.",
+    "title": "Career Transformation",
+    "rating": 5,
+    "image": "/src/assets/user.png"
+  },
+  {
+    "name": "Vikram Singh",
+    "role": "Data Analyst",
+    "review": "The faculty were very supportive throughout the learning journey. Every doubt was answered patiently.",
+    "title": "Supportive Faculty",
+    "rating": 5,
+    "image": "/src/assets/user.png"
+  },
+  {
+    "name": "Neha Kapoor",
+    "role": "Software Engineer",
+    "review": "The placement team guided me with resume building and interview preparation. I got multiple offers.",
+    "title": "Amazing Placement Support",
+    "rating": 5,
+    "image": "/src/assets/user.png"
+  },
+  {
+    "name": "Arjun Mehta",
+    "role": "Backend Developer",
+    "review": "Industry-level projects gave me real-world experience and made my resume stand out.",
+    "title": "Industry Projects",
+    "rating": 5,
+    "image": "/src/assets/user.png"
+  },
+  {
+    "name": "Pooja Nair",
+    "role": "QA Engineer",
+    "review": "The learning environment was friendly and motivating. I would definitely recommend this institute.",
+    "title": "Highly Recommended",
+    "rating": 5,
+    "image": "/src/assets/user.png"
+  },
+  {
+    "name": "Rohit Gupta",
+    "role": "Cloud Engineer",
+    "review": "The curriculum is well structured and updated according to current industry requirements.",
+    "title": "Updated Curriculum",
+    "rating": 5,
+    "image": "/src/assets/user.png"
+  },
+  {
+    "name": "Divya Iyer",
+    "role": "MERN Stack Developer",
+    "review": "From beginner to professional developer, this institute made my learning journey smooth and enjoyable.",
+    "title": "Worth Every Minute",
+    "rating": 5,
+    "image": "/src/assets/user.png"
+  }
+]

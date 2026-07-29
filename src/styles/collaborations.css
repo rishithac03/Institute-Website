@@ -1,0 +1,774 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.collaborations-page{
+    font-family:"Poppins",sans-serif;
+    background:#ffffff;
+    color:#222;
+}
+
+.collaborations-page .collab-hero .collab-container *{
+    width:100%;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.collab-container{
+    width:100%;
+    margin:auto;
+}
+.collaborations-page section{
+    padding:35px 0;
+}
+
+.collaborations-page .section-header{
+    text-align:center;
+    max-width:800px;
+    margin:0 auto 30px;
+}
+
+.collaborations-page .section-header span{
+    display:inline-block;
+    color:#ff7700;
+    font-size:20px;
+    font-weight:600;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-bottom:10px;
+}
+
+.collaborations-page .section-header h2{
+    font-size:42px;
+    font-weight:700;
+    color:#222;
+    line-height:1.2;
+    margin-bottom:15px;
+}
+
+.collaborations-page .section-header p{
+    font-size:17px;
+    color:#666;
+    line-height:1.8;
+    margin:auto;
+}
+
+
+.collab-hero{
+    background:#f8f9fa;
+    padding:80px 0;
+}
+
+.collab-hero-grid{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:50px;
+}
+
+.collab-hero-content{
+    margin:0;
+    padding:10px 0;
+}
+
+.collab-hero-badge{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:30px;
+    background:#fff1ec;
+    color:#ff7700;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.collab-hero-content h1{
+    font-size:50px;
+    color:#222;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.collab-hero-content h1 span{
+    color:#ff7700;
+}
+
+.collab-hero-content p{
+    color:#555;
+    line-height:1.8;
+    font-size:17px;
+    margin:0 auto 30px;
+    max-width: 1200px;
+    padding:0;
+    width:100%;
+}
+
+.collab-hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+.collab-primary-btn,
+.collab-secondary-btn{
+    text-decoration:none;
+    padding:12px 24px;
+    border-radius:8px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.collab-primary-btn{
+    background:#ff7700;
+    color:#fff;
+}
+
+.collab-primary-btn:hover{
+    transform:translateY(-3px);
+}
+
+.collab-secondary-btn{
+    border:2px solid #ff7700;
+    color:#ff7700;
+    background:#fff;
+}
+
+.collab-secondary-btn:hover{
+    background:#ff7700;
+    color:#fff;
+}
+/* ===========================
+   STATS
+=========================== */
+
+.stats-section{
+    padding-top:20px;
+}
+
+.stats-grid{
+    padding-left:100px;
+    padding-right:100px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.stat-card{
+
+    background:#f8f8f8;
+    text-align:center;
+    border-radius:15px;
+    padding:24px;
+    border:1px solid rgb(162, 160, 160);
+    box-shadow:0 6px 20px rgba(0,0,0,.05);
+    transition:.3s;
+}
+
+.stat-card:hover{
+
+    transform:translateY(-5px);
+    border-color:#ff7700;
+}
+
+.stat-card h2{
+
+    color:#ff7700;
+    font-size:34px;
+    margin-bottom:8px;
+}
+
+.stat-card p{
+    color:#666;
+    font-size:15px;
+}
+
+/* ===========================
+   SIMPLE FADE
+=========================== */
+
+.hero-card,
+.stat-card{
+
+    animation:fadeUp .6s ease;
+}
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+/*==================================================
+            PARTNER COLLEGES
+==================================================*/
+
+.college-section{
+    overflow:hidden;
+}
+
+.college-slider{
+    padding-top:10px;
+    padding-bottom:10px;
+    width:100%;
+    overflow:hidden;
+    position:relative;
+}
+
+.college-track{
+    display:flex;
+    gap:25px;
+    width:max-content;
+    animation:collegeScroll 28s linear infinite;
+}
+
+.college-slider:hover .college-track{
+    animation-play-state:paused;
+}
+
+@keyframes collegeScroll{
+
+    from{
+        transform:translateX(0);
+    }
+
+    to{
+        transform:translateX(calc(-50% - 12.5px));
+    }
+
+}
+
+.college-card{
+
+    min-width:330px;
+    max-width:330px;
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    border:1px solid rgb(162, 160, 160);
+    box-shadow:0 8px 25px rgba(0,0,0,.06);
+    transition:.35s;
+}
+
+.college-card:hover{
+
+    transform:translateY(-8px);
+    border-color:#ff7700;
+    box-shadow:0 14px 35px rgba(0,0,0,.12);
+}
+
+.college-card-top{
+
+    height:140px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f8f8f8;
+    border-bottom:1px solid #eee;
+}
+
+.college-logo{
+    width:300px;
+    height:95px;
+    object-fit:contain;
+}
+
+.college-card-body{
+    display:flex;
+    flex-direction: column;
+    padding:22px;
+}
+
+.college-card-body h3{
+    color:#222;
+    margin-bottom:8px;
+    font-size:21px;
+    height: 90px;
+    overflow:hidden;
+    display: flex;
+    align-items:center;
+}
+
+.college-type{
+    display:inline-flex;
+    align-items:center;
+    justify-content: center;
+    height:34px;
+    background:#fff1ec;
+    color:#ff7700;
+    padding:0px 14px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.college-description{
+    height: 80px;
+    color:#666;
+    line-height:1.6;
+    margin-bottom:15px;
+    overflow: hidden;
+}
+
+.college-location{
+    height:22px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    color:#444;
+    margin-bottom:18px;
+    font-size:14px;
+}
+
+.program-title{
+    height:24px;
+    display:flex;
+    align-items: center;
+    font-weight:600;
+    margin-bottom:12px;
+    color:#222;
+}
+
+.program-list{
+
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.program-badge{
+
+    background:#f2f2f2;
+    padding:7px 14px;
+    border-radius:25px;
+    font-size:13px;
+    transition:.3s;
+}
+
+.program-badge:hover{
+
+    background:#ff7700;
+    color:#fff;
+}
+
+/*==================================================
+         WHY COLLEGES COLLABORATE
+==================================================*/
+
+.benefits-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.benefit-card{
+    background:#fff;
+    border-radius:18px;
+    border:1px solid rgb(162, 160, 160);
+    padding:26px;
+    text-align:center;
+    transition:.35s;
+    box-shadow:0 6px 20px rgba(0,0,0,.05);
+}
+
+.benefit-card:hover{
+
+    transform:translateY(-7px);
+    border-color:#ff7700;
+}
+
+.benefit-icon{
+
+    width:65px;
+    height:65px;
+    margin:auto;
+    margin-bottom:18px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+    background:#fff1ec;
+    color:#ff7700;
+
+    font-size:28px;
+    font-weight:700;
+}
+
+.benefit-card h3{
+
+    margin-bottom:12px;
+    color:#222;
+}
+
+.benefit-card p{
+
+    color:#666;
+    line-height:1.7;
+}
+
+/*==================================================
+          PARTNER COMPANIES
+==================================================*/
+
+.companies-section{
+
+    overflow:hidden;
+}
+
+.company-slider{
+    padding-top:10px;
+    padding-bottom:10px;
+    overflow:hidden;
+    width:100%;
+    position:relative;
+}
+
+.company-track{
+
+    display:flex;
+    gap:24px;
+    width:max-content;
+    animation:companyScroll 24s linear infinite;
+}
+
+.company-slider:hover .company-track{
+
+    animation-play-state:paused;
+}
+
+@keyframes companyScroll{
+
+    from{
+        transform:translateX(0);
+    }
+
+    to{
+        transform:translateX(-50%);
+    }
+
+}
+
+.company-card{
+
+    min-width:270px;
+    max-width:270px;
+
+    background:#fff;
+    border-radius:18px;
+    border:1px solid rgb(162, 160, 160);
+    box-shadow:0 8px 22px rgba(0,0,0,.06);
+
+    text-align:center;
+    padding:25px;
+
+    transition:.35s;
+}
+
+.company-card:hover{
+
+    transform:translateY(-8px);
+    border-color:#ff7700;
+}
+
+.company-logo-wrapper{
+    margin:auto;
+    margin-bottom:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:90px;
+    background:#fafafa;
+}
+
+.company-logo{
+
+    width:200px;
+    height: 95px;
+    object-fit:contain;
+}
+
+.company-content h3{
+
+    margin-bottom:10px;
+    color:#222;
+}
+
+.company-role{
+
+    display:inline-block;
+
+    background:#fff1ec;
+    color:#ff7700;
+
+    padding:6px 14px;
+    border-radius:30px;
+
+    font-size:13px;
+    font-weight:600;
+
+    margin-bottom:15px;
+}
+
+.company-content p{
+
+    color:#666;
+    line-height:1.7;
+}
+
+/*=========================================
+            CTA SECTION
+=========================================*/
+
+.collab-cta{
+    padding:40px 0;
+}
+
+.cta-box{
+    background:#ff7700;
+    color:#fff;
+    padding:55px 35px;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(255,107,53,.25);
+}
+
+.cta-box h2{
+    font-size:38px;
+}
+
+.cta-box p{
+    max-width:760px;
+    margin:auto;
+    line-height:1.8;
+    opacity:.95;
+}
+
+.cta-box .cta-buttons{
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
+}
+.cta-box .primary-btn{
+
+    background:#fff;
+    color:#ff7700;
+}
+
+.cta-box .primary-btn:hover{
+
+    background:#222;
+    color:#fff;
+}
+
+.cta-box .secondary-btn{
+
+    border:2px solid white;
+    color:#fff;
+    background:transparent;
+}
+
+.cta-box .secondary-btn:hover{
+
+    background:#fff;
+    color: #555;
+}
+
+/*=========================================
+        SMOOTH HOVER EFFECTS
+=========================================*/
+
+.college-card,
+.company-card,
+.benefit-card,
+.process-card,
+.hero-card,
+.stat-card{
+
+    transition:
+    transform .35s ease,
+    box-shadow .35s ease,
+    border-color .35s ease;
+}
+
+.college-card:hover,
+.company-card:hover,
+.benefit-card:hover,
+.process-card:hover,
+.hero-card:hover,
+.stat-card:hover{
+
+    box-shadow:0 18px 35px rgba(0,0,0,.10);
+}
+
+
+/*=========================================
+          RESPONSIVE
+=========================================*/
+
+@media(max-width:1100px){
+
+.hero-grid{
+
+    grid-template-columns:1fr;
+    gap:35px;
+}
+
+.hero-content{
+
+    text-align:center;
+}
+
+.hero-buttons{
+
+    justify-content:center;
+}
+
+.hero-cards{
+
+    flex-direction:row;
+}
+
+.stats-grid{
+
+    grid-template-columns:repeat(2,1fr);
+}
+
+.benefits-grid{
+
+    grid-template-columns:repeat(2,1fr);
+}
+
+.process-grid{
+
+    grid-template-columns:repeat(2,1fr);
+}
+
+.process-grid::before{
+
+    display:none;
+}
+
+}
+
+@media(max-width:768px){
+
+.collaborations-page section{
+
+    padding:50px 0;
+}
+
+.hero-content h1{
+
+    font-size:38px;
+}
+
+.section-header h2{
+
+    font-size:28px;
+}
+
+.hero-cards{
+
+    flex-direction:column;
+}
+
+.stats-grid{
+
+    grid-template-columns:1fr;
+}
+
+.benefits-grid{
+
+    grid-template-columns:1fr;
+}
+
+.process-grid{
+
+    grid-template-columns:1fr;
+}
+
+.college-card{
+
+    min-width:280px;
+}
+
+.company-card{
+
+    min-width:240px;
+}
+
+.cta-box{
+
+    padding:40px 25px;
+}
+
+.cta-box h2{
+
+    font-size:30px;
+}
+
+}
+
+@media(max-width:500px){
+
+.hero-content h1{
+
+    font-size:30px;
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+}
+
+.primary-btn,
+.secondary-btn{
+
+    width:100%;
+}
+
+.college-card{
+
+    min-width:250px;
+}
+
+.company-card{
+
+    min-width:220px;
+}
+
+.program-list{
+
+    gap:8px;
+}
+
+.program-badge{
+
+    font-size:12px;
+}
+
+.cta-buttons{
+
+    flex-direction:column;
+}
+
+.cta-box .primary-btn,
+.cta-box .secondary-btn{
+
+    width:100%;
+}
+
+}
