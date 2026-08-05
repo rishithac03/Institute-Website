@@ -5,15 +5,15 @@
     "review": "This institute gave me the skills and confidence to build my career.",
     "title": "Best Institute",
     "rating": 5,
-    "image": "/src/assets/user.png"
+    "image": "https://static.vecteezy.com/system/resources/previews/013/100/900/original/user-flat-icon-free-vector.jpg"
   },
   {
     "name": "Sneha Reddy",
     "role": "Software Engineer",
     "review": "I got placed at Infosys as a Software Engineer. Thank you for the amazing training and support!",
-    "title": "Got Placed at Infosys",
+    "title": "Placed at Infosys",
     "rating": 5,
-    "image": "/src/assets/user.png"
+    "image": "https://static.vecteezy.com/system/resources/previews/013/100/900/original/user-flat-icon-free-vector.jpg"
   },
   {
     "name": "Karan Malhotra",
@@ -21,7 +21,7 @@
     "review": "Hands-on projects and mentorship helped me a lot in interviews. Highly recommended!",
     "title": "Great Learning",
     "rating": 5,
-    "image": "/src/assets/user.png"
+    "image": "https://static.vecteezy.com/system/resources/previews/013/100/900/original/user-flat-icon-free-vector.jpg"
   },
   {
     "name": "Priya Sharma",
@@ -29,15 +29,15 @@
     "review": "The trainers explained every concept clearly. Mock interviews boosted my confidence before placements.",
     "title": "Excellent Mentorship",
     "rating": 5,
-    "image": "/src/assets/user.png"
+    "image": "https://static.vecteezy.com/system/resources/previews/013/100/900/original/user-flat-icon-free-vector.jpg"
   },
   {
     "name": "Rahul Verma",
     "role": "UI/UX Designer",
-    "review": "The practical assignments and live projects helped me build an impressive portfolio.",
-    "title": "Practical Learning",
+    "review": "The practical assignments and live projects helped me build an impressive portfolio and real projects.",
+    "title": "Practical Learning techniques",
     "rating": 5,
-    "image": "/src/assets/user.png"
+    "image": "https://static.vecteezy.com/system/resources/previews/013/100/900/original/user-flat-icon-free-vector.jpg"
   },
   {
     "name": "Ananya Das",
@@ -45,23 +45,23 @@
     "review": "I improved my coding skills significantly and secured a job within two months of completing the course.",
     "title": "Career Transformation",
     "rating": 5,
-    "image": "/src/assets/user.png"
+    "image": "https://static.vecteezy.com/system/resources/previews/013/100/900/original/user-flat-icon-free-vector.jpg"
   },
   {
     "name": "Vikram Singh",
     "role": "Data Analyst",
-    "review": "The faculty were very supportive throughout the learning journey. Every doubt was answered patiently.",
+    "review": "The faculty were very supportive throughout the journey. Every doubt was answered patiently.",
     "title": "Supportive Faculty",
     "rating": 5,
-    "image": "/src/assets/user.png"
+    "image": "https://static.vecteezy.com/system/resources/previews/013/100/900/original/user-flat-icon-free-vector.jpg"
   },
   {
     "name": "Neha Kapoor",
     "role": "Software Engineer",
     "review": "The placement team guided me with resume building and interview preparation. I got multiple offers.",
-    "title": "Amazing Placement Support",
+    "title": "Amazing Support",
     "rating": 5,
-    "image": "/src/assets/user.png"
+    "image": "https://static.vecteezy.com/system/resources/previews/013/100/900/original/user-flat-icon-free-vector.jpg"
   },
   {
     "name": "Arjun Mehta",
@@ -69,7 +69,7 @@
     "review": "Industry-level projects gave me real-world experience and made my resume stand out.",
     "title": "Industry Projects",
     "rating": 5,
-    "image": "/src/assets/user.png"
+    "image": "https://static.vecteezy.com/system/resources/previews/013/100/900/original/user-flat-icon-free-vector.jpg"
   },
   {
     "name": "Pooja Nair",
@@ -77,7 +77,7 @@
     "review": "The learning environment was friendly and motivating. I would definitely recommend this institute.",
     "title": "Highly Recommended",
     "rating": 5,
-    "image": "/src/assets/user.png"
+    "image": "https://static.vecteezy.com/system/resources/previews/013/100/900/original/user-flat-icon-free-vector.jpg"
   },
   {
     "name": "Rohit Gupta",
@@ -85,14 +85,14 @@
     "review": "The curriculum is well structured and updated according to current industry requirements.",
     "title": "Updated Curriculum",
     "rating": 5,
-    "image": "/src/assets/user.png"
+    "image": "https://static.vecteezy.com/system/resources/previews/013/100/900/original/user-flat-icon-free-vector.jpg"
   },
   {
     "name": "Divya Iyer",
     "role": "MERN Stack Developer",
-    "review": "From beginner to professional developer, this institute made my learning journey smooth and enjoyable.",
-    "title": "Worth Every Minute",
+    "review": "From beginner to professional developer, this institute made my learning journey smooth.",
+    "title": "Worth Every Minute.",
     "rating": 5,
-    "image": "/src/assets/user.png"
+    "image": "https://static.vecteezy.com/system/resources/previews/013/100/900/original/user-flat-icon-free-vector.jpg"
   }
 ]
