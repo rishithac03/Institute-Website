@@ -22,7 +22,7 @@ const Colab = () => {
       <h1
         style={{
           textAlign: "center",
-          fontSize: "42px",
+          fontSize: "30px",
           color: "#222",
           marginBottom: "10px",
         }}
